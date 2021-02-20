@@ -1,7 +1,0 @@
-INFO  12:24:57,239 - Compiling source file: C:\Users\Marko\Desktop\ProjectPP\workspace\MJCompiler\test\program.mj
-INFO  12:24:57,319 - #2 program
-INFO  12:24:57,319 - #29 P
-INFO  12:24:57,320 - #29 int
-ERROR 12:24:57,320 - 
-Sintaksna greska na liniji 2
-ERROR 12:24:57,320 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2
