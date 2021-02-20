@@ -1,0 +1,31 @@
+INFO  12:35:44,075 - Compiling source file: C:\Users\Marko\Desktop\ProjectPP\workspace\MJCompiler\test\program.mj
+INFO  12:35:44,149 - #2 program
+INFO  12:35:44,149 - #29 PROG
+INFO  12:35:44,149 - #29 int
+INFO  12:35:44,151 - #29 x
+INFO  12:35:44,152 - #18 ,
+INFO  12:35:44,153 - #29 y
+INFO  12:35:44,154 - #17 ;
+INFO  12:35:44,154 - #3 const
+INFO  12:35:44,155 - #29 char
+INFO  12:35:44,155 - #29 c
+INFO  12:35:44,155 - #14 =
+INFO  12:35:44,155 - #30 a
+INFO  12:35:44,156 - #17 ;
+INFO  12:35:44,157 - #29 bool
+INFO  12:35:44,158 - #29 b
+INFO  12:35:44,158 - #17 ;
+INFO  12:35:44,158 - #23 {
+INFO  12:35:44,158 - #8 void
+INFO  12:35:44,159 - #29 main
+INFO  12:35:44,159 - #19 (
+INFO  12:35:44,160 - #20 )
+INFO  12:35:44,161 - #29 int
+INFO  12:35:44,161 - #29 a
+INFO  12:35:44,161 - #18 ,
+INFO  12:35:44,162 - #29 b
+INFO  12:35:44,162 - #17 ;
+INFO  12:35:44,165 - #29 char
+ERROR 12:35:44,165 - 
+Sintaksna greska na liniji 6
+ERROR 12:35:44,165 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6

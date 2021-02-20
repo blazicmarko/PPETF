@@ -1,0 +1,63 @@
+INFO  17:50:39,770 - Compiling source file: C:\Users\Marko\Desktop\ProjectPP\workspace\MJCompiler\test\program.mj
+INFO  17:50:39,842 - #2 program
+INFO  17:50:39,842 - #29 PROG
+INFO  17:50:39,842 - #29 int
+INFO  17:50:39,844 - #29 x
+INFO  17:50:39,845 - #18 ,
+INFO  17:50:39,847 - #29 y
+INFO  17:50:39,848 - #17 ;
+INFO  17:50:39,849 - #29 bool
+INFO  17:50:39,850 - #29 b
+INFO  17:50:39,851 - #21 [
+INFO  17:50:39,851 - #22 ]
+INFO  17:50:39,851 - #17 ;
+INFO  17:50:39,853 - #23 {
+INFO  17:50:39,853 - #24 }
+INFO  17:50:39,856 - Program(
+  ProgName(
+   PROG
+  ) [ProgName]
+  VarConstDecListVar(
+    VarConstDecListVar(
+      NoVarConstDecList(
+      ) [NoVarConstDecList]
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclaration(
+         x
+          NoBracket(
+          ) [NoBracket]
+        ) [VarDeclaration]
+        VarDeclMoreComma(
+          VarDeclaration(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarDeclaration]
+          NoVarDeclMore(
+          ) [NoVarDeclMore]
+        ) [VarDeclMoreComma]
+      ) [VarDeclarations]
+    ) [VarConstDecListVar]
+    VarDeclarations(
+      Type(
+       bool
+      ) [Type]
+      VarDeclaration(
+       b
+        Brackets(
+        ) [Brackets]
+      ) [VarDeclaration]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+    ) [VarDeclarations]
+  ) [VarConstDecListVar]
+  NoMethodDeclaration(
+  ) [NoMethodDeclaration]
+) [Program]
+INFO  17:50:39,857 - ===================================
+ERROR 17:50:39,878 - Main metoda nije definisana! na liniji 1
+INFO  17:50:39,878 - ===================================
+ERROR 17:50:39,880 - Parsiranje NIJE uspesno zavrseno!

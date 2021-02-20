@@ -1,0 +1,123 @@
+INFO  22:10:16,863 - Compiling source file: C:\Users\Marko\Desktop\ProjectPP\workspace\MJCompiler\test\program.mj
+INFO  22:10:16,958 - #2 program
+INFO  22:10:16,959 - #29 P
+INFO  22:10:16,959 - #23 {
+INFO  22:10:16,961 - #8 void
+INFO  22:10:16,961 - #29 main
+INFO  22:10:16,961 - #19 (
+INFO  22:10:16,963 - #20 )
+INFO  22:10:16,964 - #29 int
+INFO  22:10:16,966 - #29 i
+INFO  22:10:16,967 - #17 ;
+INFO  22:10:16,971 - #29 bool
+INFO  22:10:16,973 - #29 b
+INFO  22:10:16,973 - #17 ;
+INFO  22:10:16,973 - #23 {
+INFO  22:10:16,973 - #29 b
+INFO  22:10:16,975 - #14 =
+INFO  22:10:16,976 - #28 1
+INFO  22:10:16,977 - #17 ;
+INFO  22:10:16,980 - #5 print
+INFO  22:10:16,981 - #19 (
+INFO  22:10:16,981 - #29 b
+INFO  22:10:16,982 - #20 )
+INFO  22:10:16,985 - #17 ;
+INFO  22:10:16,985 - #24 }
+INFO  22:10:16,987 - #24 }
+INFO  22:10:17,027 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  NoVarConstDecList(
+  ) [NoVarConstDecList]
+  OneMethodDeclaration(
+    MethodDeclaration(
+      MethName(
+       main
+      ) [MethName]
+      VarDeclLocalListRecursion(
+        VarDeclLocalListRecursion(
+          NoVarDeclLocalListRecursion(
+          ) [NoVarDeclLocalListRecursion]
+          VarLocalDeclarations(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationLocal(
+             i
+              NoBracket(
+              ) [NoBracket]
+            ) [VarDeclarationLocal]
+            NoVarDeclMoreLocal(
+            ) [NoVarDeclMoreLocal]
+          ) [VarLocalDeclarations]
+        ) [VarDeclLocalListRecursion]
+        VarLocalDeclarations(
+          Type(
+           bool
+          ) [Type]
+          VarDeclarationLocal(
+           b
+            NoBracket(
+            ) [NoBracket]
+          ) [VarDeclarationLocal]
+          NoVarDeclMoreLocal(
+          ) [NoVarDeclMoreLocal]
+        ) [VarLocalDeclarations]
+      ) [VarDeclLocalListRecursion]
+      StatementList(
+        StatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          Declaration(
+            Evaluation(
+              DesignatorVal(
+               b
+              ) [DesignatorVal]
+              NoTernary(
+                ExpressionSub(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermListTerm(
+                    Term(
+                      FactorListFactor(
+                        FactorBool(
+                         1
+                        ) [FactorBool]
+                      ) [FactorListFactor]
+                    ) [Term]
+                  ) [TermListTerm]
+                ) [ExpressionSub]
+              ) [NoTernary]
+            ) [Evaluation]
+          ) [Declaration]
+        ) [StatementList]
+        PrintStat(
+          NoTernary(
+            ExpressionSub(
+              NoMinus(
+              ) [NoMinus]
+              TermListTerm(
+                Term(
+                  FactorListFactor(
+                    FactorDesignator(
+                      DesignatorVal(
+                       b
+                      ) [DesignatorVal]
+                    ) [FactorDesignator]
+                  ) [FactorListFactor]
+                ) [Term]
+              ) [TermListTerm]
+            ) [ExpressionSub]
+          ) [NoTernary]
+          NoConstNumberList(
+          ) [NoConstNumberList]
+        ) [PrintStat]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [OneMethodDeclaration]
+) [Program]
+INFO  22:10:17,028 - ===================================
+INFO  22:10:17,037 - Obradjuje se funkcija main na liniji 3
+INFO  22:10:17,039 - ===================================
+INFO  22:10:17,050 - Parsiranje uspesno zavrseno!

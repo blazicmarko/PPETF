@@ -1,0 +1,1530 @@
+INFO  23:49:51,190 - Compiling source file: C:\Users\Marko\Desktop\ProjectPP\workspace\MJCompiler\test\test301.mj
+INFO  23:49:51,228 - #2 program
+INFO  23:49:51,228 - #29 test301
+INFO  23:49:51,228 - #3 const
+INFO  23:49:51,229 - #29 int
+INFO  23:49:51,229 - #29 nula
+INFO  23:49:51,230 - #14 =
+INFO  23:49:51,230 - #27 0
+INFO  23:49:51,230 - #17 ;
+INFO  23:49:51,231 - #3 const
+INFO  23:49:51,231 - #29 int
+INFO  23:49:51,232 - #29 jedan
+INFO  23:49:51,232 - #14 =
+INFO  23:49:51,232 - #27 1
+INFO  23:49:51,232 - #17 ;
+INFO  23:49:51,232 - #3 const
+INFO  23:49:51,232 - #29 int
+INFO  23:49:51,232 - #29 pet
+INFO  23:49:51,232 - #14 =
+INFO  23:49:51,232 - #27 5
+INFO  23:49:51,233 - #17 ;
+INFO  23:49:51,233 - #29 int
+INFO  23:49:51,233 - #29 niz
+INFO  23:49:51,233 - #21 [
+INFO  23:49:51,233 - #22 ]
+INFO  23:49:51,234 - #17 ;
+INFO  23:49:51,236 - #29 char
+INFO  23:49:51,236 - #29 nizch
+INFO  23:49:51,236 - #21 [
+INFO  23:49:51,236 - #22 ]
+INFO  23:49:51,236 - #17 ;
+INFO  23:49:51,236 - #23 {
+INFO  23:49:51,237 - #8 void
+INFO  23:49:51,237 - #29 main
+INFO  23:49:51,237 - #19 (
+INFO  23:49:51,237 - #20 )
+INFO  23:49:51,238 - #29 int
+INFO  23:49:51,238 - #29 bodovi
+INFO  23:49:51,238 - #17 ;
+INFO  23:49:51,240 - #29 bool
+INFO  23:49:51,240 - #29 bt
+INFO  23:49:51,240 - #17 ;
+INFO  23:49:51,240 - #23 {
+INFO  23:49:51,240 - #29 bodovi
+INFO  23:49:51,241 - #14 =
+INFO  23:49:51,241 - #27 0
+INFO  23:49:51,242 - #17 ;
+INFO  23:49:51,244 - #29 bodovi
+INFO  23:49:51,244 - #15 ++
+INFO  23:49:51,244 - #17 ;
+INFO  23:49:51,244 - #29 bodovi
+INFO  23:49:51,244 - #14 =
+INFO  23:49:51,245 - #29 bodovi
+INFO  23:49:51,245 - #9 +
+INFO  23:49:51,245 - #29 jedan
+INFO  23:49:51,246 - #17 ;
+INFO  23:49:51,246 - #29 bodovi
+INFO  23:49:51,246 - #14 =
+INFO  23:49:51,246 - #29 bodovi
+INFO  23:49:51,247 - #11 *
+INFO  23:49:51,247 - #29 pet
+INFO  23:49:51,248 - #17 ;
+INFO  23:49:51,248 - #29 bodovi
+INFO  23:49:51,248 - #16 --
+INFO  23:49:51,248 - #17 ;
+INFO  23:49:51,248 - #5 print
+INFO  23:49:51,248 - #19 (
+INFO  23:49:51,248 - #29 bodovi
+INFO  23:49:51,248 - #20 )
+INFO  23:49:51,253 - #17 ;
+INFO  23:49:51,253 - #29 niz
+INFO  23:49:51,254 - #14 =
+INFO  23:49:51,254 - #4 new
+INFO  23:49:51,254 - #29 int
+INFO  23:49:51,254 - #21 [
+INFO  23:49:51,254 - #27 3
+INFO  23:49:51,254 - #22 ]
+INFO  23:49:51,254 - #17 ;
+INFO  23:49:51,254 - #29 niz
+INFO  23:49:51,254 - #21 [
+INFO  23:49:51,255 - #29 nula
+INFO  23:49:51,255 - #22 ]
+INFO  23:49:51,255 - #14 =
+INFO  23:49:51,256 - #29 jedan
+INFO  23:49:51,256 - #17 ;
+INFO  23:49:51,256 - #29 niz
+INFO  23:49:51,256 - #21 [
+INFO  23:49:51,256 - #27 1
+INFO  23:49:51,256 - #22 ]
+INFO  23:49:51,256 - #14 =
+INFO  23:49:51,257 - #27 2
+INFO  23:49:51,257 - #17 ;
+INFO  23:49:51,257 - #29 niz
+INFO  23:49:51,257 - #21 [
+INFO  23:49:51,257 - #29 niz
+INFO  23:49:51,257 - #21 [
+INFO  23:49:51,257 - #29 jedan
+INFO  23:49:51,257 - #22 ]
+INFO  23:49:51,257 - #22 ]
+INFO  23:49:51,258 - #14 =
+INFO  23:49:51,258 - #29 niz
+INFO  23:49:51,258 - #21 [
+INFO  23:49:51,258 - #29 niz
+INFO  23:49:51,258 - #21 [
+INFO  23:49:51,258 - #27 0
+INFO  23:49:51,258 - #22 ]
+INFO  23:49:51,258 - #22 ]
+INFO  23:49:51,258 - #11 *
+INFO  23:49:51,259 - #27 3
+INFO  23:49:51,259 - #17 ;
+INFO  23:49:51,259 - #29 bodovi
+INFO  23:49:51,259 - #14 =
+INFO  23:49:51,259 - #29 niz
+INFO  23:49:51,259 - #21 [
+INFO  23:49:51,259 - #27 2
+INFO  23:49:51,259 - #22 ]
+INFO  23:49:51,259 - #12 /
+INFO  23:49:51,259 - #29 niz
+INFO  23:49:51,260 - #21 [
+INFO  23:49:51,260 - #27 0
+INFO  23:49:51,261 - #22 ]
+INFO  23:49:51,261 - #17 ;
+INFO  23:49:51,261 - #5 print
+INFO  23:49:51,261 - #19 (
+INFO  23:49:51,261 - #29 bodovi
+INFO  23:49:51,261 - #20 )
+INFO  23:49:51,261 - #17 ;
+INFO  23:49:51,261 - #5 print
+INFO  23:49:51,262 - #19 (
+INFO  23:49:51,262 - #29 niz
+INFO  23:49:51,262 - #21 [
+INFO  23:49:51,262 - #27 2
+INFO  23:49:51,262 - #22 ]
+INFO  23:49:51,262 - #20 )
+INFO  23:49:51,262 - #17 ;
+INFO  23:49:51,262 - #29 nizch
+INFO  23:49:51,262 - #14 =
+INFO  23:49:51,263 - #4 new
+INFO  23:49:51,263 - #29 char
+INFO  23:49:51,263 - #21 [
+INFO  23:49:51,263 - #27 3
+INFO  23:49:51,263 - #22 ]
+INFO  23:49:51,263 - #17 ;
+INFO  23:49:51,263 - #29 nizch
+INFO  23:49:51,263 - #21 [
+INFO  23:49:51,263 - #27 0
+INFO  23:49:51,264 - #22 ]
+INFO  23:49:51,264 - #14 =
+INFO  23:49:51,264 - #30 a
+INFO  23:49:51,264 - #17 ;
+INFO  23:49:51,264 - #29 nizch
+INFO  23:49:51,264 - #21 [
+INFO  23:49:51,264 - #29 jedan
+INFO  23:49:51,264 - #22 ]
+INFO  23:49:51,265 - #14 =
+INFO  23:49:51,265 - #30 b
+INFO  23:49:51,265 - #17 ;
+INFO  23:49:51,265 - #29 nizch
+INFO  23:49:51,265 - #21 [
+INFO  23:49:51,265 - #29 pet
+INFO  23:49:51,265 - #10 -
+INFO  23:49:51,265 - #27 3
+INFO  23:49:51,266 - #22 ]
+INFO  23:49:51,266 - #14 =
+INFO  23:49:51,266 - #30 c
+INFO  23:49:51,266 - #17 ;
+INFO  23:49:51,266 - #5 print
+INFO  23:49:51,266 - #19 (
+INFO  23:49:51,266 - #29 nizch
+INFO  23:49:51,266 - #21 [
+INFO  23:49:51,266 - #27 1
+INFO  23:49:51,267 - #22 ]
+INFO  23:49:51,267 - #20 )
+INFO  23:49:51,267 - #17 ;
+INFO  23:49:51,267 - #5 print
+INFO  23:49:51,267 - #19 (
+INFO  23:49:51,267 - #29 nizch
+INFO  23:49:51,267 - #21 [
+INFO  23:49:51,267 - #29 jedan
+INFO  23:49:51,267 - #11 *
+INFO  23:49:51,267 - #27 2
+INFO  23:49:51,267 - #22 ]
+INFO  23:49:51,267 - #20 )
+INFO  23:49:51,267 - #17 ;
+INFO  23:49:51,268 - #29 bodovi
+INFO  23:49:51,268 - #14 =
+INFO  23:49:51,268 - #29 bodovi
+INFO  23:49:51,268 - #9 +
+INFO  23:49:51,268 - #19 (
+INFO  23:49:51,268 - #29 pet
+INFO  23:49:51,268 - #11 *
+INFO  23:49:51,268 - #29 jedan
+INFO  23:49:51,268 - #10 -
+INFO  23:49:51,268 - #27 1
+INFO  23:49:51,268 - #20 )
+INFO  23:49:51,268 - #11 *
+INFO  23:49:51,269 - #29 bodovi
+INFO  23:49:51,269 - #10 -
+INFO  23:49:51,269 - #19 (
+INFO  23:49:51,269 - #27 3
+INFO  23:49:51,269 - #13 %
+INFO  23:49:51,269 - #27 2
+INFO  23:49:51,269 - #9 +
+INFO  23:49:51,270 - #27 3
+INFO  23:49:51,270 - #11 *
+INFO  23:49:51,270 - #27 2
+INFO  23:49:51,270 - #10 -
+INFO  23:49:51,270 - #27 3
+INFO  23:49:51,270 - #20 )
+INFO  23:49:51,270 - #17 ;
+INFO  23:49:51,270 - #5 print
+INFO  23:49:51,270 - #19 (
+INFO  23:49:51,270 - #29 bodovi
+INFO  23:49:51,270 - #20 )
+INFO  23:49:51,270 - #17 ;
+INFO  23:49:51,270 - #6 read
+INFO  23:49:51,270 - #19 (
+INFO  23:49:51,271 - #29 bodovi
+INFO  23:49:51,271 - #20 )
+INFO  23:49:51,271 - #17 ;
+INFO  23:49:51,271 - #29 bt
+INFO  23:49:51,271 - #14 =
+INFO  23:49:51,271 - #28 1
+INFO  23:49:51,271 - #17 ;
+INFO  23:49:51,271 - #5 print
+INFO  23:49:51,271 - #19 (
+INFO  23:49:51,271 - #29 bt
+INFO  23:49:51,271 - #25 ?
+INFO  23:49:51,272 - #29 bodovi
+INFO  23:49:51,272 - #7 :
+INFO  23:49:51,272 - #29 bodovi
+INFO  23:49:51,272 - #9 +
+INFO  23:49:51,272 - #27 10
+INFO  23:49:51,272 - #20 )
+INFO  23:49:51,272 - #17 ;
+INFO  23:49:51,272 - #5 print
+INFO  23:49:51,272 - #19 (
+INFO  23:49:51,272 - #28 0
+INFO  23:49:51,272 - #25 ?
+INFO  23:49:51,272 - #29 bodovi
+INFO  23:49:51,272 - #9 +
+INFO  23:49:51,273 - #27 20
+INFO  23:49:51,273 - #7 :
+INFO  23:49:51,273 - #29 bodovi
+INFO  23:49:51,273 - #9 +
+INFO  23:49:51,273 - #27 30
+INFO  23:49:51,273 - #20 )
+INFO  23:49:51,273 - #17 ;
+INFO  23:49:51,273 - #5 print
+INFO  23:49:51,273 - #19 (
+INFO  23:49:51,273 - #28 1
+INFO  23:49:51,273 - #25 ?
+INFO  23:49:51,273 - #30 +
+INFO  23:49:51,273 - #7 :
+INFO  23:49:51,273 - #30 -
+INFO  23:49:51,274 - #20 )
+INFO  23:49:51,274 - #17 ;
+INFO  23:49:51,274 - #24 }
+INFO  23:49:51,274 - #24 }
+INFO  23:49:51,289 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarConstDecListVar(
+    VarConstDecListVar(
+      VarConstDecListConst(
+        VarConstDecListConst(
+          VarConstDecListConst(
+            NoVarConstDecList(
+            ) [NoVarConstDecList]
+            ConstDeclarations(
+              Type(
+               int
+              ) [Type]
+              ConstantNum(
+               nula
+               0
+              ) [ConstantNum]
+              NoConstDeclMore(
+              ) [NoConstDeclMore]
+            ) [ConstDeclarations]
+          ) [VarConstDecListConst]
+          ConstDeclarations(
+            Type(
+             int
+            ) [Type]
+            ConstantNum(
+             jedan
+             1
+            ) [ConstantNum]
+            NoConstDeclMore(
+            ) [NoConstDeclMore]
+          ) [ConstDeclarations]
+        ) [VarConstDecListConst]
+        ConstDeclarations(
+          Type(
+           int
+          ) [Type]
+          ConstantNum(
+           pet
+           5
+          ) [ConstantNum]
+          NoConstDeclMore(
+          ) [NoConstDeclMore]
+        ) [ConstDeclarations]
+      ) [VarConstDecListConst]
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclaration(
+         niz
+          Brackets(
+          ) [Brackets]
+        ) [VarDeclaration]
+        NoVarDeclMore(
+        ) [NoVarDeclMore]
+      ) [VarDeclarations]
+    ) [VarConstDecListVar]
+    VarDeclarations(
+      Type(
+       char
+      ) [Type]
+      VarDeclaration(
+       nizch
+        Brackets(
+        ) [Brackets]
+      ) [VarDeclaration]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+    ) [VarDeclarations]
+  ) [VarConstDecListVar]
+  OneMethodDeclaration(
+    MethodDeclaration(
+      MethName(
+       main
+      ) [MethName]
+      VarDeclLocalListRecursion(
+        VarDeclLocalListRecursion(
+          NoVarDeclLocalListRecursion(
+          ) [NoVarDeclLocalListRecursion]
+          VarLocalDeclarations(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationLocal(
+             bodovi
+              NoBracket(
+              ) [NoBracket]
+            ) [VarDeclarationLocal]
+            NoVarDeclMoreLocal(
+            ) [NoVarDeclMoreLocal]
+          ) [VarLocalDeclarations]
+        ) [VarDeclLocalListRecursion]
+        VarLocalDeclarations(
+          Type(
+           bool
+          ) [Type]
+          VarDeclarationLocal(
+           bt
+            NoBracket(
+            ) [NoBracket]
+          ) [VarDeclarationLocal]
+          NoVarDeclMoreLocal(
+          ) [NoVarDeclMoreLocal]
+        ) [VarLocalDeclarations]
+      ) [VarDeclLocalListRecursion]
+      StatementList(
+        StatementList(
+          StatementList(
+            StatementList(
+              StatementList(
+                StatementList(
+                  StatementList(
+                    StatementList(
+                      StatementList(
+                        StatementList(
+                          StatementList(
+                            StatementList(
+                              StatementList(
+                                StatementList(
+                                  StatementList(
+                                    StatementList(
+                                      StatementList(
+                                        StatementList(
+                                          StatementList(
+                                            StatementList(
+                                              StatementList(
+                                                StatementList(
+                                                  StatementList(
+                                                    StatementList(
+                                                      StatementList(
+                                                        StatementList(
+                                                          NoStatementList(
+                                                          ) [NoStatementList]
+                                                          Declaration(
+                                                            Evaluation(
+                                                              DesignatorVal(
+                                                               bodovi
+                                                              ) [DesignatorVal]
+                                                              NoTernary(
+                                                                ExpressionSub(
+                                                                  NoMinus(
+                                                                  ) [NoMinus]
+                                                                  TermListTerm(
+                                                                    Term(
+                                                                      FactorListFactor(
+                                                                        FactorNum(
+                                                                         0
+                                                                        ) [FactorNum]
+                                                                      ) [FactorListFactor]
+                                                                    ) [Term]
+                                                                  ) [TermListTerm]
+                                                                ) [ExpressionSub]
+                                                              ) [NoTernary]
+                                                            ) [Evaluation]
+                                                          ) [Declaration]
+                                                        ) [StatementList]
+                                                        Declaration(
+                                                          Incrementation(
+                                                            DesignatorVal(
+                                                             bodovi
+                                                            ) [DesignatorVal]
+                                                          ) [Incrementation]
+                                                        ) [Declaration]
+                                                      ) [StatementList]
+                                                      Declaration(
+                                                        Evaluation(
+                                                          DesignatorVal(
+                                                           bodovi
+                                                          ) [DesignatorVal]
+                                                          NoTernary(
+                                                            ExpressionSub(
+                                                              NoMinus(
+                                                              ) [NoMinus]
+                                                              TermListAddop(
+                                                                TermListTerm(
+                                                                  Term(
+                                                                    FactorListFactor(
+                                                                      FactorDesignator(
+                                                                        DesignatorVal(
+                                                                         bodovi
+                                                                        ) [DesignatorVal]
+                                                                      ) [FactorDesignator]
+                                                                    ) [FactorListFactor]
+                                                                  ) [Term]
+                                                                ) [TermListTerm]
+                                                                AddopPlus(
+                                                                ) [AddopPlus]
+                                                                Term(
+                                                                  FactorListFactor(
+                                                                    FactorDesignator(
+                                                                      DesignatorVal(
+                                                                       jedan
+                                                                      ) [DesignatorVal]
+                                                                    ) [FactorDesignator]
+                                                                  ) [FactorListFactor]
+                                                                ) [Term]
+                                                              ) [TermListAddop]
+                                                            ) [ExpressionSub]
+                                                          ) [NoTernary]
+                                                        ) [Evaluation]
+                                                      ) [Declaration]
+                                                    ) [StatementList]
+                                                    Declaration(
+                                                      Evaluation(
+                                                        DesignatorVal(
+                                                         bodovi
+                                                        ) [DesignatorVal]
+                                                        NoTernary(
+                                                          ExpressionSub(
+                                                            NoMinus(
+                                                            ) [NoMinus]
+                                                            TermListTerm(
+                                                              Term(
+                                                                FactorListMulop(
+                                                                  FactorListFactor(
+                                                                    FactorDesignator(
+                                                                      DesignatorVal(
+                                                                       bodovi
+                                                                      ) [DesignatorVal]
+                                                                    ) [FactorDesignator]
+                                                                  ) [FactorListFactor]
+                                                                  MulopMul(
+                                                                  ) [MulopMul]
+                                                                  FactorDesignator(
+                                                                    DesignatorVal(
+                                                                     pet
+                                                                    ) [DesignatorVal]
+                                                                  ) [FactorDesignator]
+                                                                ) [FactorListMulop]
+                                                              ) [Term]
+                                                            ) [TermListTerm]
+                                                          ) [ExpressionSub]
+                                                        ) [NoTernary]
+                                                      ) [Evaluation]
+                                                    ) [Declaration]
+                                                  ) [StatementList]
+                                                  Declaration(
+                                                    Decrementation(
+                                                      DesignatorVal(
+                                                       bodovi
+                                                      ) [DesignatorVal]
+                                                    ) [Decrementation]
+                                                  ) [Declaration]
+                                                ) [StatementList]
+                                                PrintStat(
+                                                  NoTernary(
+                                                    ExpressionSub(
+                                                      NoMinus(
+                                                      ) [NoMinus]
+                                                      TermListTerm(
+                                                        Term(
+                                                          FactorListFactor(
+                                                            FactorDesignator(
+                                                              DesignatorVal(
+                                                               bodovi
+                                                              ) [DesignatorVal]
+                                                            ) [FactorDesignator]
+                                                          ) [FactorListFactor]
+                                                        ) [Term]
+                                                      ) [TermListTerm]
+                                                    ) [ExpressionSub]
+                                                  ) [NoTernary]
+                                                  NoConstNumberList(
+                                                  ) [NoConstNumberList]
+                                                ) [PrintStat]
+                                              ) [StatementList]
+                                              Declaration(
+                                                Evaluation(
+                                                  DesignatorVal(
+                                                   niz
+                                                  ) [DesignatorVal]
+                                                  NoTernary(
+                                                    ExpressionSub(
+                                                      NoMinus(
+                                                      ) [NoMinus]
+                                                      TermListTerm(
+                                                        Term(
+                                                          FactorListFactor(
+                                                            FactorNew(
+                                                              Type(
+                                                               int
+                                                              ) [Type]
+                                                              NoTernary(
+                                                                ExpressionSub(
+                                                                  NoMinus(
+                                                                  ) [NoMinus]
+                                                                  TermListTerm(
+                                                                    Term(
+                                                                      FactorListFactor(
+                                                                        FactorNum(
+                                                                         3
+                                                                        ) [FactorNum]
+                                                                      ) [FactorListFactor]
+                                                                    ) [Term]
+                                                                  ) [TermListTerm]
+                                                                ) [ExpressionSub]
+                                                              ) [NoTernary]
+                                                            ) [FactorNew]
+                                                          ) [FactorListFactor]
+                                                        ) [Term]
+                                                      ) [TermListTerm]
+                                                    ) [ExpressionSub]
+                                                  ) [NoTernary]
+                                                ) [Evaluation]
+                                              ) [Declaration]
+                                            ) [StatementList]
+                                            Declaration(
+                                              Evaluation(
+                                                DesignatorArray(
+                                                  ArrayName(
+                                                   niz
+                                                  ) [ArrayName]
+                                                  NoTernary(
+                                                    ExpressionSub(
+                                                      NoMinus(
+                                                      ) [NoMinus]
+                                                      TermListTerm(
+                                                        Term(
+                                                          FactorListFactor(
+                                                            FactorDesignator(
+                                                              DesignatorVal(
+                                                               nula
+                                                              ) [DesignatorVal]
+                                                            ) [FactorDesignator]
+                                                          ) [FactorListFactor]
+                                                        ) [Term]
+                                                      ) [TermListTerm]
+                                                    ) [ExpressionSub]
+                                                  ) [NoTernary]
+                                                ) [DesignatorArray]
+                                                NoTernary(
+                                                  ExpressionSub(
+                                                    NoMinus(
+                                                    ) [NoMinus]
+                                                    TermListTerm(
+                                                      Term(
+                                                        FactorListFactor(
+                                                          FactorDesignator(
+                                                            DesignatorVal(
+                                                             jedan
+                                                            ) [DesignatorVal]
+                                                          ) [FactorDesignator]
+                                                        ) [FactorListFactor]
+                                                      ) [Term]
+                                                    ) [TermListTerm]
+                                                  ) [ExpressionSub]
+                                                ) [NoTernary]
+                                              ) [Evaluation]
+                                            ) [Declaration]
+                                          ) [StatementList]
+                                          Declaration(
+                                            Evaluation(
+                                              DesignatorArray(
+                                                ArrayName(
+                                                 niz
+                                                ) [ArrayName]
+                                                NoTernary(
+                                                  ExpressionSub(
+                                                    NoMinus(
+                                                    ) [NoMinus]
+                                                    TermListTerm(
+                                                      Term(
+                                                        FactorListFactor(
+                                                          FactorNum(
+                                                           1
+                                                          ) [FactorNum]
+                                                        ) [FactorListFactor]
+                                                      ) [Term]
+                                                    ) [TermListTerm]
+                                                  ) [ExpressionSub]
+                                                ) [NoTernary]
+                                              ) [DesignatorArray]
+                                              NoTernary(
+                                                ExpressionSub(
+                                                  NoMinus(
+                                                  ) [NoMinus]
+                                                  TermListTerm(
+                                                    Term(
+                                                      FactorListFactor(
+                                                        FactorNum(
+                                                         2
+                                                        ) [FactorNum]
+                                                      ) [FactorListFactor]
+                                                    ) [Term]
+                                                  ) [TermListTerm]
+                                                ) [ExpressionSub]
+                                              ) [NoTernary]
+                                            ) [Evaluation]
+                                          ) [Declaration]
+                                        ) [StatementList]
+                                        Declaration(
+                                          Evaluation(
+                                            DesignatorArray(
+                                              ArrayName(
+                                               niz
+                                              ) [ArrayName]
+                                              NoTernary(
+                                                ExpressionSub(
+                                                  NoMinus(
+                                                  ) [NoMinus]
+                                                  TermListTerm(
+                                                    Term(
+                                                      FactorListFactor(
+                                                        FactorDesignator(
+                                                          DesignatorArray(
+                                                            ArrayName(
+                                                             niz
+                                                            ) [ArrayName]
+                                                            NoTernary(
+                                                              ExpressionSub(
+                                                                NoMinus(
+                                                                ) [NoMinus]
+                                                                TermListTerm(
+                                                                  Term(
+                                                                    FactorListFactor(
+                                                                      FactorDesignator(
+                                                                        DesignatorVal(
+                                                                         jedan
+                                                                        ) [DesignatorVal]
+                                                                      ) [FactorDesignator]
+                                                                    ) [FactorListFactor]
+                                                                  ) [Term]
+                                                                ) [TermListTerm]
+                                                              ) [ExpressionSub]
+                                                            ) [NoTernary]
+                                                          ) [DesignatorArray]
+                                                        ) [FactorDesignator]
+                                                      ) [FactorListFactor]
+                                                    ) [Term]
+                                                  ) [TermListTerm]
+                                                ) [ExpressionSub]
+                                              ) [NoTernary]
+                                            ) [DesignatorArray]
+                                            NoTernary(
+                                              ExpressionSub(
+                                                NoMinus(
+                                                ) [NoMinus]
+                                                TermListTerm(
+                                                  Term(
+                                                    FactorListMulop(
+                                                      FactorListFactor(
+                                                        FactorDesignator(
+                                                          DesignatorArray(
+                                                            ArrayName(
+                                                             niz
+                                                            ) [ArrayName]
+                                                            NoTernary(
+                                                              ExpressionSub(
+                                                                NoMinus(
+                                                                ) [NoMinus]
+                                                                TermListTerm(
+                                                                  Term(
+                                                                    FactorListFactor(
+                                                                      FactorDesignator(
+                                                                        DesignatorArray(
+                                                                          ArrayName(
+                                                                           niz
+                                                                          ) [ArrayName]
+                                                                          NoTernary(
+                                                                            ExpressionSub(
+                                                                              NoMinus(
+                                                                              ) [NoMinus]
+                                                                              TermListTerm(
+                                                                                Term(
+                                                                                  FactorListFactor(
+                                                                                    FactorNum(
+                                                                                     0
+                                                                                    ) [FactorNum]
+                                                                                  ) [FactorListFactor]
+                                                                                ) [Term]
+                                                                              ) [TermListTerm]
+                                                                            ) [ExpressionSub]
+                                                                          ) [NoTernary]
+                                                                        ) [DesignatorArray]
+                                                                      ) [FactorDesignator]
+                                                                    ) [FactorListFactor]
+                                                                  ) [Term]
+                                                                ) [TermListTerm]
+                                                              ) [ExpressionSub]
+                                                            ) [NoTernary]
+                                                          ) [DesignatorArray]
+                                                        ) [FactorDesignator]
+                                                      ) [FactorListFactor]
+                                                      MulopMul(
+                                                      ) [MulopMul]
+                                                      FactorNum(
+                                                       3
+                                                      ) [FactorNum]
+                                                    ) [FactorListMulop]
+                                                  ) [Term]
+                                                ) [TermListTerm]
+                                              ) [ExpressionSub]
+                                            ) [NoTernary]
+                                          ) [Evaluation]
+                                        ) [Declaration]
+                                      ) [StatementList]
+                                      Declaration(
+                                        Evaluation(
+                                          DesignatorVal(
+                                           bodovi
+                                          ) [DesignatorVal]
+                                          NoTernary(
+                                            ExpressionSub(
+                                              NoMinus(
+                                              ) [NoMinus]
+                                              TermListTerm(
+                                                Term(
+                                                  FactorListMulop(
+                                                    FactorListFactor(
+                                                      FactorDesignator(
+                                                        DesignatorArray(
+                                                          ArrayName(
+                                                           niz
+                                                          ) [ArrayName]
+                                                          NoTernary(
+                                                            ExpressionSub(
+                                                              NoMinus(
+                                                              ) [NoMinus]
+                                                              TermListTerm(
+                                                                Term(
+                                                                  FactorListFactor(
+                                                                    FactorNum(
+                                                                     2
+                                                                    ) [FactorNum]
+                                                                  ) [FactorListFactor]
+                                                                ) [Term]
+                                                              ) [TermListTerm]
+                                                            ) [ExpressionSub]
+                                                          ) [NoTernary]
+                                                        ) [DesignatorArray]
+                                                      ) [FactorDesignator]
+                                                    ) [FactorListFactor]
+                                                    MulopDiv(
+                                                    ) [MulopDiv]
+                                                    FactorDesignator(
+                                                      DesignatorArray(
+                                                        ArrayName(
+                                                         niz
+                                                        ) [ArrayName]
+                                                        NoTernary(
+                                                          ExpressionSub(
+                                                            NoMinus(
+                                                            ) [NoMinus]
+                                                            TermListTerm(
+                                                              Term(
+                                                                FactorListFactor(
+                                                                  FactorNum(
+                                                                   0
+                                                                  ) [FactorNum]
+                                                                ) [FactorListFactor]
+                                                              ) [Term]
+                                                            ) [TermListTerm]
+                                                          ) [ExpressionSub]
+                                                        ) [NoTernary]
+                                                      ) [DesignatorArray]
+                                                    ) [FactorDesignator]
+                                                  ) [FactorListMulop]
+                                                ) [Term]
+                                              ) [TermListTerm]
+                                            ) [ExpressionSub]
+                                          ) [NoTernary]
+                                        ) [Evaluation]
+                                      ) [Declaration]
+                                    ) [StatementList]
+                                    PrintStat(
+                                      NoTernary(
+                                        ExpressionSub(
+                                          NoMinus(
+                                          ) [NoMinus]
+                                          TermListTerm(
+                                            Term(
+                                              FactorListFactor(
+                                                FactorDesignator(
+                                                  DesignatorVal(
+                                                   bodovi
+                                                  ) [DesignatorVal]
+                                                ) [FactorDesignator]
+                                              ) [FactorListFactor]
+                                            ) [Term]
+                                          ) [TermListTerm]
+                                        ) [ExpressionSub]
+                                      ) [NoTernary]
+                                      NoConstNumberList(
+                                      ) [NoConstNumberList]
+                                    ) [PrintStat]
+                                  ) [StatementList]
+                                  PrintStat(
+                                    NoTernary(
+                                      ExpressionSub(
+                                        NoMinus(
+                                        ) [NoMinus]
+                                        TermListTerm(
+                                          Term(
+                                            FactorListFactor(
+                                              FactorDesignator(
+                                                DesignatorArray(
+                                                  ArrayName(
+                                                   niz
+                                                  ) [ArrayName]
+                                                  NoTernary(
+                                                    ExpressionSub(
+                                                      NoMinus(
+                                                      ) [NoMinus]
+                                                      TermListTerm(
+                                                        Term(
+                                                          FactorListFactor(
+                                                            FactorNum(
+                                                             2
+                                                            ) [FactorNum]
+                                                          ) [FactorListFactor]
+                                                        ) [Term]
+                                                      ) [TermListTerm]
+                                                    ) [ExpressionSub]
+                                                  ) [NoTernary]
+                                                ) [DesignatorArray]
+                                              ) [FactorDesignator]
+                                            ) [FactorListFactor]
+                                          ) [Term]
+                                        ) [TermListTerm]
+                                      ) [ExpressionSub]
+                                    ) [NoTernary]
+                                    NoConstNumberList(
+                                    ) [NoConstNumberList]
+                                  ) [PrintStat]
+                                ) [StatementList]
+                                Declaration(
+                                  Evaluation(
+                                    DesignatorVal(
+                                     nizch
+                                    ) [DesignatorVal]
+                                    NoTernary(
+                                      ExpressionSub(
+                                        NoMinus(
+                                        ) [NoMinus]
+                                        TermListTerm(
+                                          Term(
+                                            FactorListFactor(
+                                              FactorNew(
+                                                Type(
+                                                 char
+                                                ) [Type]
+                                                NoTernary(
+                                                  ExpressionSub(
+                                                    NoMinus(
+                                                    ) [NoMinus]
+                                                    TermListTerm(
+                                                      Term(
+                                                        FactorListFactor(
+                                                          FactorNum(
+                                                           3
+                                                          ) [FactorNum]
+                                                        ) [FactorListFactor]
+                                                      ) [Term]
+                                                    ) [TermListTerm]
+                                                  ) [ExpressionSub]
+                                                ) [NoTernary]
+                                              ) [FactorNew]
+                                            ) [FactorListFactor]
+                                          ) [Term]
+                                        ) [TermListTerm]
+                                      ) [ExpressionSub]
+                                    ) [NoTernary]
+                                  ) [Evaluation]
+                                ) [Declaration]
+                              ) [StatementList]
+                              Declaration(
+                                Evaluation(
+                                  DesignatorArray(
+                                    ArrayName(
+                                     nizch
+                                    ) [ArrayName]
+                                    NoTernary(
+                                      ExpressionSub(
+                                        NoMinus(
+                                        ) [NoMinus]
+                                        TermListTerm(
+                                          Term(
+                                            FactorListFactor(
+                                              FactorNum(
+                                               0
+                                              ) [FactorNum]
+                                            ) [FactorListFactor]
+                                          ) [Term]
+                                        ) [TermListTerm]
+                                      ) [ExpressionSub]
+                                    ) [NoTernary]
+                                  ) [DesignatorArray]
+                                  NoTernary(
+                                    ExpressionSub(
+                                      NoMinus(
+                                      ) [NoMinus]
+                                      TermListTerm(
+                                        Term(
+                                          FactorListFactor(
+                                            FactorChar(
+                                             a
+                                            ) [FactorChar]
+                                          ) [FactorListFactor]
+                                        ) [Term]
+                                      ) [TermListTerm]
+                                    ) [ExpressionSub]
+                                  ) [NoTernary]
+                                ) [Evaluation]
+                              ) [Declaration]
+                            ) [StatementList]
+                            Declaration(
+                              Evaluation(
+                                DesignatorArray(
+                                  ArrayName(
+                                   nizch
+                                  ) [ArrayName]
+                                  NoTernary(
+                                    ExpressionSub(
+                                      NoMinus(
+                                      ) [NoMinus]
+                                      TermListTerm(
+                                        Term(
+                                          FactorListFactor(
+                                            FactorDesignator(
+                                              DesignatorVal(
+                                               jedan
+                                              ) [DesignatorVal]
+                                            ) [FactorDesignator]
+                                          ) [FactorListFactor]
+                                        ) [Term]
+                                      ) [TermListTerm]
+                                    ) [ExpressionSub]
+                                  ) [NoTernary]
+                                ) [DesignatorArray]
+                                NoTernary(
+                                  ExpressionSub(
+                                    NoMinus(
+                                    ) [NoMinus]
+                                    TermListTerm(
+                                      Term(
+                                        FactorListFactor(
+                                          FactorChar(
+                                           b
+                                          ) [FactorChar]
+                                        ) [FactorListFactor]
+                                      ) [Term]
+                                    ) [TermListTerm]
+                                  ) [ExpressionSub]
+                                ) [NoTernary]
+                              ) [Evaluation]
+                            ) [Declaration]
+                          ) [StatementList]
+                          Declaration(
+                            Evaluation(
+                              DesignatorArray(
+                                ArrayName(
+                                 nizch
+                                ) [ArrayName]
+                                NoTernary(
+                                  ExpressionSub(
+                                    NoMinus(
+                                    ) [NoMinus]
+                                    TermListAddop(
+                                      TermListTerm(
+                                        Term(
+                                          FactorListFactor(
+                                            FactorDesignator(
+                                              DesignatorVal(
+                                               pet
+                                              ) [DesignatorVal]
+                                            ) [FactorDesignator]
+                                          ) [FactorListFactor]
+                                        ) [Term]
+                                      ) [TermListTerm]
+                                      AddopMinus(
+                                      ) [AddopMinus]
+                                      Term(
+                                        FactorListFactor(
+                                          FactorNum(
+                                           3
+                                          ) [FactorNum]
+                                        ) [FactorListFactor]
+                                      ) [Term]
+                                    ) [TermListAddop]
+                                  ) [ExpressionSub]
+                                ) [NoTernary]
+                              ) [DesignatorArray]
+                              NoTernary(
+                                ExpressionSub(
+                                  NoMinus(
+                                  ) [NoMinus]
+                                  TermListTerm(
+                                    Term(
+                                      FactorListFactor(
+                                        FactorChar(
+                                         c
+                                        ) [FactorChar]
+                                      ) [FactorListFactor]
+                                    ) [Term]
+                                  ) [TermListTerm]
+                                ) [ExpressionSub]
+                              ) [NoTernary]
+                            ) [Evaluation]
+                          ) [Declaration]
+                        ) [StatementList]
+                        PrintStat(
+                          NoTernary(
+                            ExpressionSub(
+                              NoMinus(
+                              ) [NoMinus]
+                              TermListTerm(
+                                Term(
+                                  FactorListFactor(
+                                    FactorDesignator(
+                                      DesignatorArray(
+                                        ArrayName(
+                                         nizch
+                                        ) [ArrayName]
+                                        NoTernary(
+                                          ExpressionSub(
+                                            NoMinus(
+                                            ) [NoMinus]
+                                            TermListTerm(
+                                              Term(
+                                                FactorListFactor(
+                                                  FactorNum(
+                                                   1
+                                                  ) [FactorNum]
+                                                ) [FactorListFactor]
+                                              ) [Term]
+                                            ) [TermListTerm]
+                                          ) [ExpressionSub]
+                                        ) [NoTernary]
+                                      ) [DesignatorArray]
+                                    ) [FactorDesignator]
+                                  ) [FactorListFactor]
+                                ) [Term]
+                              ) [TermListTerm]
+                            ) [ExpressionSub]
+                          ) [NoTernary]
+                          NoConstNumberList(
+                          ) [NoConstNumberList]
+                        ) [PrintStat]
+                      ) [StatementList]
+                      PrintStat(
+                        NoTernary(
+                          ExpressionSub(
+                            NoMinus(
+                            ) [NoMinus]
+                            TermListTerm(
+                              Term(
+                                FactorListFactor(
+                                  FactorDesignator(
+                                    DesignatorArray(
+                                      ArrayName(
+                                       nizch
+                                      ) [ArrayName]
+                                      NoTernary(
+                                        ExpressionSub(
+                                          NoMinus(
+                                          ) [NoMinus]
+                                          TermListTerm(
+                                            Term(
+                                              FactorListMulop(
+                                                FactorListFactor(
+                                                  FactorDesignator(
+                                                    DesignatorVal(
+                                                     jedan
+                                                    ) [DesignatorVal]
+                                                  ) [FactorDesignator]
+                                                ) [FactorListFactor]
+                                                MulopMul(
+                                                ) [MulopMul]
+                                                FactorNum(
+                                                 2
+                                                ) [FactorNum]
+                                              ) [FactorListMulop]
+                                            ) [Term]
+                                          ) [TermListTerm]
+                                        ) [ExpressionSub]
+                                      ) [NoTernary]
+                                    ) [DesignatorArray]
+                                  ) [FactorDesignator]
+                                ) [FactorListFactor]
+                              ) [Term]
+                            ) [TermListTerm]
+                          ) [ExpressionSub]
+                        ) [NoTernary]
+                        NoConstNumberList(
+                        ) [NoConstNumberList]
+                      ) [PrintStat]
+                    ) [StatementList]
+                    Declaration(
+                      Evaluation(
+                        DesignatorVal(
+                         bodovi
+                        ) [DesignatorVal]
+                        NoTernary(
+                          ExpressionSub(
+                            NoMinus(
+                            ) [NoMinus]
+                            TermListAddop(
+                              TermListAddop(
+                                TermListTerm(
+                                  Term(
+                                    FactorListFactor(
+                                      FactorDesignator(
+                                        DesignatorVal(
+                                         bodovi
+                                        ) [DesignatorVal]
+                                      ) [FactorDesignator]
+                                    ) [FactorListFactor]
+                                  ) [Term]
+                                ) [TermListTerm]
+                                AddopPlus(
+                                ) [AddopPlus]
+                                Term(
+                                  FactorListMulop(
+                                    FactorListFactor(
+                                      FactorExp(
+                                        NoTernary(
+                                          ExpressionSub(
+                                            NoMinus(
+                                            ) [NoMinus]
+                                            TermListAddop(
+                                              TermListTerm(
+                                                Term(
+                                                  FactorListMulop(
+                                                    FactorListFactor(
+                                                      FactorDesignator(
+                                                        DesignatorVal(
+                                                         pet
+                                                        ) [DesignatorVal]
+                                                      ) [FactorDesignator]
+                                                    ) [FactorListFactor]
+                                                    MulopMul(
+                                                    ) [MulopMul]
+                                                    FactorDesignator(
+                                                      DesignatorVal(
+                                                       jedan
+                                                      ) [DesignatorVal]
+                                                    ) [FactorDesignator]
+                                                  ) [FactorListMulop]
+                                                ) [Term]
+                                              ) [TermListTerm]
+                                              AddopMinus(
+                                              ) [AddopMinus]
+                                              Term(
+                                                FactorListFactor(
+                                                  FactorNum(
+                                                   1
+                                                  ) [FactorNum]
+                                                ) [FactorListFactor]
+                                              ) [Term]
+                                            ) [TermListAddop]
+                                          ) [ExpressionSub]
+                                        ) [NoTernary]
+                                      ) [FactorExp]
+                                    ) [FactorListFactor]
+                                    MulopMul(
+                                    ) [MulopMul]
+                                    FactorDesignator(
+                                      DesignatorVal(
+                                       bodovi
+                                      ) [DesignatorVal]
+                                    ) [FactorDesignator]
+                                  ) [FactorListMulop]
+                                ) [Term]
+                              ) [TermListAddop]
+                              AddopMinus(
+                              ) [AddopMinus]
+                              Term(
+                                FactorListFactor(
+                                  FactorExp(
+                                    NoTernary(
+                                      ExpressionSub(
+                                        NoMinus(
+                                        ) [NoMinus]
+                                        TermListAddop(
+                                          TermListAddop(
+                                            TermListTerm(
+                                              Term(
+                                                FactorListMulop(
+                                                  FactorListFactor(
+                                                    FactorNum(
+                                                     3
+                                                    ) [FactorNum]
+                                                  ) [FactorListFactor]
+                                                  MulopPer(
+                                                  ) [MulopPer]
+                                                  FactorNum(
+                                                   2
+                                                  ) [FactorNum]
+                                                ) [FactorListMulop]
+                                              ) [Term]
+                                            ) [TermListTerm]
+                                            AddopPlus(
+                                            ) [AddopPlus]
+                                            Term(
+                                              FactorListMulop(
+                                                FactorListFactor(
+                                                  FactorNum(
+                                                   3
+                                                  ) [FactorNum]
+                                                ) [FactorListFactor]
+                                                MulopMul(
+                                                ) [MulopMul]
+                                                FactorNum(
+                                                 2
+                                                ) [FactorNum]
+                                              ) [FactorListMulop]
+                                            ) [Term]
+                                          ) [TermListAddop]
+                                          AddopMinus(
+                                          ) [AddopMinus]
+                                          Term(
+                                            FactorListFactor(
+                                              FactorNum(
+                                               3
+                                              ) [FactorNum]
+                                            ) [FactorListFactor]
+                                          ) [Term]
+                                        ) [TermListAddop]
+                                      ) [ExpressionSub]
+                                    ) [NoTernary]
+                                  ) [FactorExp]
+                                ) [FactorListFactor]
+                              ) [Term]
+                            ) [TermListAddop]
+                          ) [ExpressionSub]
+                        ) [NoTernary]
+                      ) [Evaluation]
+                    ) [Declaration]
+                  ) [StatementList]
+                  PrintStat(
+                    NoTernary(
+                      ExpressionSub(
+                        NoMinus(
+                        ) [NoMinus]
+                        TermListTerm(
+                          Term(
+                            FactorListFactor(
+                              FactorDesignator(
+                                DesignatorVal(
+                                 bodovi
+                                ) [DesignatorVal]
+                              ) [FactorDesignator]
+                            ) [FactorListFactor]
+                          ) [Term]
+                        ) [TermListTerm]
+                      ) [ExpressionSub]
+                    ) [NoTernary]
+                    NoConstNumberList(
+                    ) [NoConstNumberList]
+                  ) [PrintStat]
+                ) [StatementList]
+                ReadStat(
+                  DesignatorVal(
+                   bodovi
+                  ) [DesignatorVal]
+                ) [ReadStat]
+              ) [StatementList]
+              Declaration(
+                Evaluation(
+                  DesignatorVal(
+                   bt
+                  ) [DesignatorVal]
+                  NoTernary(
+                    ExpressionSub(
+                      NoMinus(
+                      ) [NoMinus]
+                      TermListTerm(
+                        Term(
+                          FactorListFactor(
+                            FactorBool(
+                             1
+                            ) [FactorBool]
+                          ) [FactorListFactor]
+                        ) [Term]
+                      ) [TermListTerm]
+                    ) [ExpressionSub]
+                  ) [NoTernary]
+                ) [Evaluation]
+              ) [Declaration]
+            ) [StatementList]
+            PrintStat(
+              Ternary(
+                ExpressionSub(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermListTerm(
+                    Term(
+                      FactorListFactor(
+                        FactorDesignator(
+                          DesignatorVal(
+                           bt
+                          ) [DesignatorVal]
+                        ) [FactorDesignator]
+                      ) [FactorListFactor]
+                    ) [Term]
+                  ) [TermListTerm]
+                ) [ExpressionSub]
+                ExpressionSub(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermListTerm(
+                    Term(
+                      FactorListFactor(
+                        FactorDesignator(
+                          DesignatorVal(
+                           bodovi
+                          ) [DesignatorVal]
+                        ) [FactorDesignator]
+                      ) [FactorListFactor]
+                    ) [Term]
+                  ) [TermListTerm]
+                ) [ExpressionSub]
+                ExpressionSub(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermListAddop(
+                    TermListTerm(
+                      Term(
+                        FactorListFactor(
+                          FactorDesignator(
+                            DesignatorVal(
+                             bodovi
+                            ) [DesignatorVal]
+                          ) [FactorDesignator]
+                        ) [FactorListFactor]
+                      ) [Term]
+                    ) [TermListTerm]
+                    AddopPlus(
+                    ) [AddopPlus]
+                    Term(
+                      FactorListFactor(
+                        FactorNum(
+                         10
+                        ) [FactorNum]
+                      ) [FactorListFactor]
+                    ) [Term]
+                  ) [TermListAddop]
+                ) [ExpressionSub]
+              ) [Ternary]
+              NoConstNumberList(
+              ) [NoConstNumberList]
+            ) [PrintStat]
+          ) [StatementList]
+          PrintStat(
+            Ternary(
+              ExpressionSub(
+                NoMinus(
+                ) [NoMinus]
+                TermListTerm(
+                  Term(
+                    FactorListFactor(
+                      FactorBool(
+                       0
+                      ) [FactorBool]
+                    ) [FactorListFactor]
+                  ) [Term]
+                ) [TermListTerm]
+              ) [ExpressionSub]
+              ExpressionSub(
+                NoMinus(
+                ) [NoMinus]
+                TermListAddop(
+                  TermListTerm(
+                    Term(
+                      FactorListFactor(
+                        FactorDesignator(
+                          DesignatorVal(
+                           bodovi
+                          ) [DesignatorVal]
+                        ) [FactorDesignator]
+                      ) [FactorListFactor]
+                    ) [Term]
+                  ) [TermListTerm]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  Term(
+                    FactorListFactor(
+                      FactorNum(
+                       20
+                      ) [FactorNum]
+                    ) [FactorListFactor]
+                  ) [Term]
+                ) [TermListAddop]
+              ) [ExpressionSub]
+              ExpressionSub(
+                NoMinus(
+                ) [NoMinus]
+                TermListAddop(
+                  TermListTerm(
+                    Term(
+                      FactorListFactor(
+                        FactorDesignator(
+                          DesignatorVal(
+                           bodovi
+                          ) [DesignatorVal]
+                        ) [FactorDesignator]
+                      ) [FactorListFactor]
+                    ) [Term]
+                  ) [TermListTerm]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  Term(
+                    FactorListFactor(
+                      FactorNum(
+                       30
+                      ) [FactorNum]
+                    ) [FactorListFactor]
+                  ) [Term]
+                ) [TermListAddop]
+              ) [ExpressionSub]
+            ) [Ternary]
+            NoConstNumberList(
+            ) [NoConstNumberList]
+          ) [PrintStat]
+        ) [StatementList]
+        PrintStat(
+          Ternary(
+            ExpressionSub(
+              NoMinus(
+              ) [NoMinus]
+              TermListTerm(
+                Term(
+                  FactorListFactor(
+                    FactorBool(
+                     1
+                    ) [FactorBool]
+                  ) [FactorListFactor]
+                ) [Term]
+              ) [TermListTerm]
+            ) [ExpressionSub]
+            ExpressionSub(
+              NoMinus(
+              ) [NoMinus]
+              TermListTerm(
+                Term(
+                  FactorListFactor(
+                    FactorChar(
+                     +
+                    ) [FactorChar]
+                  ) [FactorListFactor]
+                ) [Term]
+              ) [TermListTerm]
+            ) [ExpressionSub]
+            ExpressionSub(
+              NoMinus(
+              ) [NoMinus]
+              TermListTerm(
+                Term(
+                  FactorListFactor(
+                    FactorChar(
+                     -
+                    ) [FactorChar]
+                  ) [FactorListFactor]
+                ) [Term]
+              ) [TermListTerm]
+            ) [ExpressionSub]
+          ) [Ternary]
+          NoConstNumberList(
+          ) [NoConstNumberList]
+        ) [PrintStat]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [OneMethodDeclaration]
+) [Program]
+INFO  23:49:51,292 - ===================================
+INFO  23:49:51,295 - Obradjuje se funkcija main na liniji 13
+INFO  23:49:51,296 - ===================================
+INFO  23:49:51,302 - Parsiranje uspesno zavrseno!

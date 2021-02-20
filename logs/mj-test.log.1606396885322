@@ -1,0 +1,21 @@
+INFO  18:18:21,176 - Compiling source file: C:\Users\Marko\Desktop\ProjectPP\workspace\MJCompiler\test\program.mj
+INFO  18:18:21,209 - #1 program
+INFO  18:18:21,209 - #19 MJProgram
+INFO  18:18:21,209 - #19 char
+INFO  18:18:21,209 - #19 x
+INFO  18:18:21,209 - #40 ,
+INFO  18:18:21,210 - #19 y
+INFO  18:18:21,210 - #39 ;
+INFO  18:18:21,210 - #46 {
+INFO  18:18:21,210 - #15 void
+INFO  18:18:21,210 - #19 main
+INFO  18:18:21,210 - #42 (
+INFO  18:18:21,210 - #43 )
+INFO  18:18:21,210 - #46 {
+INFO  18:18:21,211 - #19 char
+INFO  18:18:21,211 - #19 x
+INFO  18:18:21,211 - #36 =
+INFO  18:18:21,211 - #21 a
+INFO  18:18:21,212 - #39 ;
+INFO  18:18:21,212 - #47 }
+INFO  18:18:21,212 - #47 }

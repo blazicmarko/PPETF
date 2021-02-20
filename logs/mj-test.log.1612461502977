@@ -1,0 +1,245 @@
+INFO  18:58:10,174 - Compiling source file: C:\Users\Marko\Desktop\ProjectPP\workspace\MJCompiler\test\program.mj
+INFO  18:58:10,207 - #2 program
+INFO  18:58:10,207 - #29 PROG
+INFO  18:58:10,207 - #29 int
+INFO  18:58:10,209 - #29 x
+INFO  18:58:10,209 - #18 ,
+INFO  18:58:10,210 - #29 y
+INFO  18:58:10,210 - #17 ;
+INFO  18:58:10,211 - #29 bool
+INFO  18:58:10,211 - #29 b
+INFO  18:58:10,212 - #21 [
+INFO  18:58:10,212 - #22 ]
+INFO  18:58:10,212 - #17 ;
+INFO  18:58:10,212 - #3 const
+INFO  18:58:10,212 - #29 int
+INFO  18:58:10,213 - #29 c
+INFO  18:58:10,213 - #14 =
+INFO  18:58:10,213 - #27 5
+INFO  18:58:10,213 - #17 ;
+INFO  18:58:10,214 - #23 {
+INFO  18:58:10,214 - #8 void
+INFO  18:58:10,214 - #29 main
+INFO  18:58:10,214 - #19 (
+INFO  18:58:10,215 - #20 )
+INFO  18:58:10,215 - #29 int
+INFO  18:58:10,216 - #29 a
+INFO  18:58:10,216 - #17 ;
+INFO  18:58:10,216 - #23 {
+INFO  18:58:10,217 - #29 a
+INFO  18:58:10,217 - #14 =
+INFO  18:58:10,218 - #29 x
+INFO  18:58:10,218 - #9 +
+INFO  18:58:10,219 - #29 y
+INFO  18:58:10,220 - #17 ;
+INFO  18:58:10,221 - #29 b
+INFO  18:58:10,221 - #21 [
+INFO  18:58:10,222 - #27 5
+INFO  18:58:10,222 - #22 ]
+INFO  18:58:10,222 - #14 =
+INFO  18:58:10,222 - #28 1
+INFO  18:58:10,222 - #17 ;
+INFO  18:58:10,222 - #5 print
+INFO  18:58:10,222 - #19 (
+INFO  18:58:10,223 - #27 5
+INFO  18:58:10,223 - #20 )
+INFO  18:58:10,223 - #17 ;
+INFO  18:58:10,223 - #6 read
+INFO  18:58:10,224 - #19 (
+INFO  18:58:10,224 - #29 x
+INFO  18:58:10,224 - #20 )
+INFO  18:58:10,224 - #17 ;
+INFO  18:58:10,224 - #24 }
+INFO  18:58:10,224 - #24 }
+INFO  18:58:10,227 - Program(
+  ProgName(
+   PROG
+  ) [ProgName]
+  VarConstDecListConst(
+    VarConstDecListVar(
+      VarConstDecListVar(
+        NoVarConstDecList(
+        ) [NoVarConstDecList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclaration(
+           x
+            NoBracket(
+            ) [NoBracket]
+          ) [VarDeclaration]
+          VarDeclMoreComma(
+            VarDeclaration(
+             y
+              NoBracket(
+              ) [NoBracket]
+            ) [VarDeclaration]
+            NoVarDeclMore(
+            ) [NoVarDeclMore]
+          ) [VarDeclMoreComma]
+        ) [VarDeclarations]
+      ) [VarConstDecListVar]
+      VarDeclarations(
+        Type(
+         bool
+        ) [Type]
+        VarDeclaration(
+         b
+          Brackets(
+          ) [Brackets]
+        ) [VarDeclaration]
+        NoVarDeclMore(
+        ) [NoVarDeclMore]
+      ) [VarDeclarations]
+    ) [VarConstDecListVar]
+    ConstDeclarations(
+      Type(
+       int
+      ) [Type]
+      ConstantNum(
+       c
+       5
+      ) [ConstantNum]
+      NoConstDeclMore(
+      ) [NoConstDeclMore]
+    ) [ConstDeclarations]
+  ) [VarConstDecListConst]
+  OneMethodDeclaration(
+    MethodDeclaration(
+      MethName(
+       main
+      ) [MethName]
+      VarDeclLocalListRecursion(
+        NoVarDeclLocalListRecursion(
+        ) [NoVarDeclLocalListRecursion]
+        VarLocalDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationLocal(
+           a
+            NoBracket(
+            ) [NoBracket]
+          ) [VarDeclarationLocal]
+          NoVarDeclMoreLocal(
+          ) [NoVarDeclMoreLocal]
+        ) [VarLocalDeclarations]
+      ) [VarDeclLocalListRecursion]
+      StatementList(
+        StatementList(
+          StatementList(
+            StatementList(
+              NoStatementList(
+              ) [NoStatementList]
+              Declaration(
+                Evaluation(
+                  DesignatorVal(
+                   a
+                  ) [DesignatorVal]
+                  NoTernary(
+                    ExpressionSub(
+                      NoMinus(
+                      ) [NoMinus]
+                      TermListAddop(
+                        TermListTerm(
+                          Term(
+                            FactorListFactor(
+                              FactorDesignator(
+                                DesignatorVal(
+                                 x
+                                ) [DesignatorVal]
+                              ) [FactorDesignator]
+                            ) [FactorListFactor]
+                          ) [Term]
+                        ) [TermListTerm]
+                        AddopPlus(
+                        ) [AddopPlus]
+                        Term(
+                          FactorListFactor(
+                            FactorDesignator(
+                              DesignatorVal(
+                               y
+                              ) [DesignatorVal]
+                            ) [FactorDesignator]
+                          ) [FactorListFactor]
+                        ) [Term]
+                      ) [TermListAddop]
+                    ) [ExpressionSub]
+                  ) [NoTernary]
+                ) [Evaluation]
+              ) [Declaration]
+            ) [StatementList]
+            Declaration(
+              Evaluation(
+                DesignatorArray(
+                  ArrayName(
+                   b
+                  ) [ArrayName]
+                  NoTernary(
+                    ExpressionSub(
+                      NoMinus(
+                      ) [NoMinus]
+                      TermListTerm(
+                        Term(
+                          FactorListFactor(
+                            FactorNum(
+                             5
+                            ) [FactorNum]
+                          ) [FactorListFactor]
+                        ) [Term]
+                      ) [TermListTerm]
+                    ) [ExpressionSub]
+                  ) [NoTernary]
+                ) [DesignatorArray]
+                NoTernary(
+                  ExpressionSub(
+                    NoMinus(
+                    ) [NoMinus]
+                    TermListTerm(
+                      Term(
+                        FactorListFactor(
+                          FactorBool(
+                           1
+                          ) [FactorBool]
+                        ) [FactorListFactor]
+                      ) [Term]
+                    ) [TermListTerm]
+                  ) [ExpressionSub]
+                ) [NoTernary]
+              ) [Evaluation]
+            ) [Declaration]
+          ) [StatementList]
+          PrintStat(
+            NoTernary(
+              ExpressionSub(
+                NoMinus(
+                ) [NoMinus]
+                TermListTerm(
+                  Term(
+                    FactorListFactor(
+                      FactorNum(
+                       5
+                      ) [FactorNum]
+                    ) [FactorListFactor]
+                  ) [Term]
+                ) [TermListTerm]
+              ) [ExpressionSub]
+            ) [NoTernary]
+            NoConstNumberList(
+            ) [NoConstNumberList]
+          ) [PrintStat]
+        ) [StatementList]
+        ReadStat(
+          DesignatorVal(
+           x
+          ) [DesignatorVal]
+        ) [ReadStat]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [OneMethodDeclaration]
+) [Program]
+INFO  18:58:10,227 - ===================================
+INFO  18:58:10,240 - Obradjuje se funkcija main na liniji 6
+INFO  18:58:10,241 - ===================================
+INFO  18:58:10,241 - Parsiranje uspesno zavrseno!

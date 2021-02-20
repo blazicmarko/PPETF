@@ -1,0 +1,108 @@
+INFO  23:30:48,005 - Compiling source file: C:\Users\Marko\Desktop\ProjectPP\workspace\MJCompiler\test\program.mj
+INFO  23:30:48,040 - #2 program
+INFO  23:30:48,040 - #29 test301
+INFO  23:30:48,041 - #23 {
+INFO  23:30:48,042 - #8 void
+INFO  23:30:48,042 - #29 main
+INFO  23:30:48,042 - #19 (
+INFO  23:30:48,042 - #20 )
+INFO  23:30:48,043 - #29 int
+INFO  23:30:48,043 - #29 i
+INFO  23:30:48,044 - #17 ;
+INFO  23:30:48,045 - #23 {
+INFO  23:30:48,046 - #29 i
+INFO  23:30:48,046 - #14 =
+INFO  23:30:48,047 - #28 0
+INFO  23:30:48,047 - #25 ?
+INFO  23:30:48,049 - #27 4
+INFO  23:30:48,049 - #7 :
+INFO  23:30:48,049 - #27 2
+INFO  23:30:48,049 - #17 ;
+INFO  23:30:48,050 - #24 }
+INFO  23:30:48,050 - #24 }
+INFO  23:30:48,065 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoVarConstDecList(
+  ) [NoVarConstDecList]
+  OneMethodDeclaration(
+    MethodDeclaration(
+      MethName(
+       main
+      ) [MethName]
+      VarDeclLocalListRecursion(
+        NoVarDeclLocalListRecursion(
+        ) [NoVarDeclLocalListRecursion]
+        VarLocalDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationLocal(
+           i
+            NoBracket(
+            ) [NoBracket]
+          ) [VarDeclarationLocal]
+          NoVarDeclMoreLocal(
+          ) [NoVarDeclMoreLocal]
+        ) [VarLocalDeclarations]
+      ) [VarDeclLocalListRecursion]
+      StatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        Declaration(
+          Evaluation(
+            DesignatorVal(
+             i
+            ) [DesignatorVal]
+            Ternary(
+              ExpressionSub(
+                NoMinus(
+                ) [NoMinus]
+                TermListTerm(
+                  Term(
+                    FactorListFactor(
+                      FactorBool(
+                       0
+                      ) [FactorBool]
+                    ) [FactorListFactor]
+                  ) [Term]
+                ) [TermListTerm]
+              ) [ExpressionSub]
+              ExpressionSub(
+                NoMinus(
+                ) [NoMinus]
+                TermListTerm(
+                  Term(
+                    FactorListFactor(
+                      FactorNum(
+                       4
+                      ) [FactorNum]
+                    ) [FactorListFactor]
+                  ) [Term]
+                ) [TermListTerm]
+              ) [ExpressionSub]
+              ExpressionSub(
+                NoMinus(
+                ) [NoMinus]
+                TermListTerm(
+                  Term(
+                    FactorListFactor(
+                      FactorNum(
+                       2
+                      ) [FactorNum]
+                    ) [FactorListFactor]
+                  ) [Term]
+                ) [TermListTerm]
+              ) [ExpressionSub]
+            ) [Ternary]
+          ) [Evaluation]
+        ) [Declaration]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [OneMethodDeclaration]
+) [Program]
+INFO  23:30:48,065 - ===================================
+INFO  23:30:48,068 - Obradjuje se funkcija main na liniji 5
+INFO  23:30:48,069 - ===================================
+INFO  23:30:48,074 - Parsiranje uspesno zavrseno!

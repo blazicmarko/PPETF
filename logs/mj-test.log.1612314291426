@@ -1,0 +1,24 @@
+INFO  16:25:56,019 - Compiling source file: C:\Users\Marko\Desktop\ProjectPP\workspace\MJCompiler\test\program.mj
+INFO  16:25:56,040 - #1 program
+INFO  16:25:56,040 - #19 MJProgram
+INFO  16:25:56,040 - #19 char
+INFO  16:25:56,040 - #19 x
+INFO  16:25:56,040 - #40 ,
+INFO  16:25:56,040 - #19 y
+INFO  16:25:56,041 - #39 ;
+INFO  16:25:56,041 - #46 {
+INFO  16:25:56,041 - #15 void
+INFO  16:25:56,041 - #19 main
+INFO  16:25:56,041 - #42 (
+INFO  16:25:56,041 - #43 )
+INFO  16:25:56,041 - #46 {
+INFO  16:25:56,041 - #19 char
+INFO  16:25:56,042 - #19 x
+INFO  16:25:56,042 - #36 =
+INFO  16:25:56,042 - #21 a
+INFO  16:25:56,042 - #39 ;
+INFO  16:25:56,043 - #47 }
+INFO  16:25:56,043 - #19 for
+INFO  16:25:56,043 - #7 if
+INFO  16:25:56,043 - #19 contine
+INFO  16:25:56,044 - #47 }

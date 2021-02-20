@@ -1,0 +1,230 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	boolean errorDetected;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+init with {:
+	errorDetected = false;
+:}
+
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROGRAM, CONST, NEW, PRINT, READ, COLON, VOID, PLUS, MINUS, MULTIPLE; 
+terminal DIVIDE, PERCENT, EQUAL, PLUSPLUS, MINUSMINUS, SEMI, COMMA, LPAREN, RPAREN, LBRACKET;
+terminal RBRACKET, LBRACE, RBRACE, QUESTION, RETURN;
+terminal Integer NUMBER, BOOLCONST;
+terminal String IDENT;
+terminal Character CHARCONST;
+
+nonterminal VarConstDecList, ConstDeclList, ConstDeclMore;
+nonterminal VarDeclList, VarDeclMore, VarDecl, Brcs;
+nonterminal MethodDeclList, VarDeclLocalListRec, VarDeclLocalList, VarDeclMoreLocal;
+nonterminal VarDeclLocal, ConstNumList;
+nonterminal MayMinus, Quest, Col;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, MethodDecl, MethName, Designator, ArrayName, ConstDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Factor, FactorList, Term, TermList, ExprSub, Expr, DesignatorStatement, Statment, StmtList, Mulop, Addop;
+
+Program ::= 		(Program) PROGRAM ProgName:p VarConstDecList LBRACE MethodDeclList RBRACE
+					;
+
+ProgName ::= 		(ProgName) IDENT:progName
+					;
+
+VarConstDecList ::= (VarConstDecListConst) VarConstDecList ConstDeclList
+					|
+					(VarConstDecListVar) VarConstDecList VarDeclList
+					|
+					(NoVarConstDecList) /* epsilon */
+					;
+					
+ConstDeclList ::= 	(ConstDeclarations) CONST Type ConstDecl ConstDeclMore SEMI
+				  	;
+				   
+ConstDeclMore ::= 	(ConstDeclMoreComma) COMMA ConstDecl ConstDeclMore
+					|
+					(NoConstDeclMore) /* epsilon */
+					;
+				  
+ConstDecl ::= 		(ConstantNum) IDENT:constName EQUAL NUMBER
+			  		|
+			  		(ConstantChar) IDENT:constName EQUAL CHARCONST
+			  		|
+			  		(ConstantBool) IDENT:constName EQUAL BOOLCONST
+			  		;
+			  
+VarDeclList ::=		(VarDeclarations) Type:typeName VarDecl VarDeclMore SEMI
+			   		;
+			   
+VarDeclMore ::= 	(VarDeclMoreComma) COMMA VarDecl VarDeclMore
+					|
+					(NoVarDeclMore) /* epsilon */
+					;
+
+VarDecl ::= 		(VarDeclaration) IDENT:varName Brcs
+					;
+			
+Brcs ::= 			(Brackets) LBRACKET RBRACKET
+					|
+					(NoBracket) /* epsilon */
+					;
+
+Type ::= 			(Type) IDENT:typeName;
+
+MethodDeclList ::=	(OneMethodDeclaration) MethodDecl
+				   	|
+				   	(NoMethodDeclaration) /* epsilon */
+				   	;
+
+MethodDecl ::= 		(MethodDeclaration) VOID MethName LPAREN RPAREN VarDeclLocalListRec LBRACE StmtList RBRACE
+					;
+
+MethName ::= 		(MethName) IDENT:methName
+					;
+				
+VarDeclLocalListRec ::= (VarDeclLocalListRecursion) VarDeclLocalListRec VarDeclLocalList
+						|
+						(NoVarDeclLocalListRecursion) /* epsilon */
+						;
+				
+VarDeclLocalList ::=	(VarLocalDeclarations) Type VarDeclLocal VarDeclMoreLocal SEMI 
+			   			;
+			   
+VarDeclMoreLocal ::= 	(VarDeclMoreLocalComma) COMMA VarDeclLocal VarDeclMoreLocal
+						|
+						(NoVarDeclMoreLocal) /* epsilon */
+						;
+
+VarDeclLocal ::= 	(VarDeclarationLocal) IDENT:varNameLocal Brcs
+					;
+			
+StmtList ::= 		(StatementList) StmtList Statment
+					|
+					(NoStatementList) /* epsilon */
+					;
+			 
+Statment ::= 		(Declaration) DesignatorStatement SEMI
+			 		|
+			 		(ReadStat) READ LPAREN Designator RPAREN SEMI
+			 		|
+			 		(PrintStat) PRINT LPAREN Expr ConstNumList RPAREN SEMI
+			 		|
+			 		(ReturnStat) RETURN SEMI
+			 		|
+			 		(Stmts) LBRACE StmtList RBRACE
+			 		;
+			 
+ConstNumList ::= 	(ConstNumberList) COMMA NUMBER
+				 	|
+				 	(NoConstNumberList) /* epsilon */
+				 	;	
+
+DesignatorStatement ::= (Evaluation) Designator EQUAL Expr
+						|
+						(Incrementation) Designator PLUSPLUS
+						|
+						(Decrementation) Designator MINUSMINUS
+						;
+						
+Designator ::= 		(DesignatorVal) IDENT:valName
+					|
+					(DesignatorArray) ArrayName LBRACKET Expr RBRACKET
+					;
+				
+ArrayName ::= 		(ArrayName) IDENT:arrName
+					;
+
+Expr ::= 			(NoTernary) ExprSub
+					|
+					(Ternary) ExprSub Quest ExprSub Col ExprSub
+					;
+					
+Quest ::= (Question) QUESTION;
+
+Col ::= (Colon) COLON;
+			
+ExprSub ::= 		(ExpressionSub) MayMinus TermList
+					;
+			
+MayMinus ::= 		(YesMinus) MINUS
+					|
+					(NoMinus) /* epsilon */
+					;			
+			
+TermList ::= 		(TermListAddop) TermList Addop Term
+					|
+					(TermListTerm) Term
+					;
+
+Addop ::= 			(AddopPlus) PLUS
+		  			|
+		  			(AddopMinus) MINUS
+		  			;
+
+Term ::= 			(Term) FactorList
+					;
+
+FactorList ::= 		(FactorListMulop) FactorList Mulop Factor
+					|
+					(FactorListFactor) Factor
+					;
+		 
+Factor::= 			(FactorDesignator) Designator
+		  			|
+		  			(FactorNum) NUMBER
+		  			|
+		  			(FactorChar) CHARCONST
+		  			|
+		  			(FactorExp) LPAREN Expr RPAREN
+		  			|
+		  			(FactorBool) BOOLCONST
+		  			|
+		  			(FactorNew) NEW Type LBRACKET Expr RBRACKET
+		  			;
+
+Mulop ::= 			(MulopMul) MULTIPLE
+		  			|
+		  			(MulopDiv) DIVIDE
+		  			|
+		  			(MulopPer) PERCENT
+		 			;
+

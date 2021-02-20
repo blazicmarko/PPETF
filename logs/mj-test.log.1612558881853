@@ -1,0 +1,136 @@
+INFO  22:00:50,840 - Compiling source file: C:\Users\Marko\Desktop\ProjectPP\workspace\MJCompiler\test\program.mj
+INFO  22:00:50,874 - #2 program
+INFO  22:00:50,874 - #29 test301
+INFO  22:00:50,874 - #23 {
+INFO  22:00:50,876 - #8 void
+INFO  22:00:50,876 - #29 main
+INFO  22:00:50,876 - #19 (
+INFO  22:00:50,876 - #20 )
+INFO  22:00:50,877 - #29 int
+INFO  22:00:50,877 - #29 i
+INFO  22:00:50,878 - #17 ;
+INFO  22:00:50,879 - #23 {
+INFO  22:00:50,880 - #29 i
+INFO  22:00:50,880 - #14 =
+INFO  22:00:50,880 - #27 4
+INFO  22:00:50,881 - #17 ;
+INFO  22:00:50,883 - #29 i
+INFO  22:00:50,883 - #14 =
+INFO  22:00:50,883 - #28 1
+INFO  22:00:50,883 - #25 ?
+INFO  22:00:50,884 - #27 4
+INFO  22:00:50,884 - #7 :
+INFO  22:00:50,884 - #27 3
+INFO  22:00:50,884 - #17 ;
+INFO  22:00:50,884 - #24 }
+INFO  22:00:50,884 - #24 }
+INFO  22:00:50,899 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoVarConstDecList(
+  ) [NoVarConstDecList]
+  OneMethodDeclaration(
+    MethodDeclaration(
+      MethName(
+       main
+      ) [MethName]
+      VarDeclLocalListRecursion(
+        NoVarDeclLocalListRecursion(
+        ) [NoVarDeclLocalListRecursion]
+        VarLocalDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationLocal(
+           i
+            NoBracket(
+            ) [NoBracket]
+          ) [VarDeclarationLocal]
+          NoVarDeclMoreLocal(
+          ) [NoVarDeclMoreLocal]
+        ) [VarLocalDeclarations]
+      ) [VarDeclLocalListRecursion]
+      StatementList(
+        StatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          Declaration(
+            Evaluation(
+              DesignatorVal(
+               i
+              ) [DesignatorVal]
+              NoTernary(
+                ExpressionSub(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermListTerm(
+                    Term(
+                      FactorListFactor(
+                        FactorNum(
+                         4
+                        ) [FactorNum]
+                      ) [FactorListFactor]
+                    ) [Term]
+                  ) [TermListTerm]
+                ) [ExpressionSub]
+              ) [NoTernary]
+            ) [Evaluation]
+          ) [Declaration]
+        ) [StatementList]
+        Declaration(
+          Evaluation(
+            DesignatorVal(
+             i
+            ) [DesignatorVal]
+            Ternary(
+              ExpressionSub(
+                NoMinus(
+                ) [NoMinus]
+                TermListTerm(
+                  Term(
+                    FactorListFactor(
+                      FactorBool(
+                       1
+                      ) [FactorBool]
+                    ) [FactorListFactor]
+                  ) [Term]
+                ) [TermListTerm]
+              ) [ExpressionSub]
+              ExpressionSub(
+                NoMinus(
+                ) [NoMinus]
+                TermListTerm(
+                  Term(
+                    FactorListFactor(
+                      FactorNum(
+                       4
+                      ) [FactorNum]
+                    ) [FactorListFactor]
+                  ) [Term]
+                ) [TermListTerm]
+              ) [ExpressionSub]
+              ExpressionSub(
+                NoMinus(
+                ) [NoMinus]
+                TermListTerm(
+                  Term(
+                    FactorListFactor(
+                      FactorNum(
+                       3
+                      ) [FactorNum]
+                    ) [FactorListFactor]
+                  ) [Term]
+                ) [TermListTerm]
+              ) [ExpressionSub]
+            ) [Ternary]
+          ) [Evaluation]
+        ) [Declaration]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [OneMethodDeclaration]
+) [Program]
+INFO  22:00:50,899 - ===================================
+INFO  22:00:50,917 - Obradjuje se funkcija main na liniji 5
+INFO  22:00:50,918 - ===================================
+INFO  22:00:50,923 - Parsiranje uspesno zavrseno!

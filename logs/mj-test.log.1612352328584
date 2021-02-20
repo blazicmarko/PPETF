@@ -1,0 +1,45 @@
+INFO  12:38:34,426 - Compiling source file: C:\Users\Marko\Desktop\ProjectPP\workspace\MJCompiler\test\program.mj
+INFO  12:38:34,496 - #2 program
+INFO  12:38:34,497 - #29 PROG
+INFO  12:38:34,497 - #29 int
+INFO  12:38:34,500 - #29 x
+INFO  12:38:34,501 - #18 ,
+INFO  12:38:34,504 - #29 y
+INFO  12:38:34,505 - #17 ;
+INFO  12:38:34,506 - #3 const
+INFO  12:38:34,507 - #29 char
+INFO  12:38:34,508 - #29 c
+INFO  12:38:34,508 - #14 =
+INFO  12:38:34,508 - #30 a
+INFO  12:38:34,508 - #17 ;
+INFO  12:38:34,510 - #29 bool
+INFO  12:38:34,511 - #29 b
+INFO  12:38:34,511 - #17 ;
+INFO  12:38:34,511 - #23 {
+INFO  12:38:34,511 - #8 void
+INFO  12:38:34,512 - #29 main
+INFO  12:38:34,512 - #19 (
+INFO  12:38:34,513 - #20 )
+INFO  12:38:34,514 - #29 int
+INFO  12:38:34,515 - #29 a
+INFO  12:38:34,516 - #18 ,
+INFO  12:38:34,517 - #29 b
+INFO  12:38:34,518 - #17 ;
+INFO  12:38:34,520 - #23 {
+INFO  12:38:34,521 - #29 a
+INFO  12:38:34,522 - #15 ++
+INFO  12:38:34,523 - #17 ;
+INFO  12:38:34,523 - #29 ch
+INFO  12:38:34,524 - #14 =
+INFO  12:38:34,525 - #4 new
+INFO  12:38:34,528 - #29 char
+INFO  12:38:34,528 - #21 [
+INFO  12:38:34,528 - #27 6
+INFO  12:38:34,528 - #22 ]
+INFO  12:38:34,532 - #17 ;
+INFO  12:38:34,533 - #29 ch
+INFO  12:38:34,533 - #21 [
+INFO  12:38:34,538 - #27 1
+ERROR 12:38:34,538 - 
+Sintaksna greska na liniji 11
+ERROR 12:38:34,540 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 11

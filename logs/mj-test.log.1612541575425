@@ -1,0 +1,242 @@
+INFO  17:12:35,967 - Compiling source file: C:\Users\Marko\Desktop\ProjectPP\workspace\MJCompiler\test\program.mj
+INFO  17:12:36,115 - #2 program
+INFO  17:12:36,118 - #29 PROG
+INFO  17:12:36,118 - #29 int
+INFO  17:12:36,130 - #29 x
+INFO  17:12:36,132 - #18 ,
+INFO  17:12:36,139 - #29 y
+INFO  17:12:36,139 - #17 ;
+INFO  17:12:36,142 - #29 bool
+INFO  17:12:36,143 - #29 b
+INFO  17:12:36,143 - #21 [
+INFO  17:12:36,144 - #22 ]
+INFO  17:12:36,144 - #17 ;
+INFO  17:12:36,146 - #3 const
+INFO  17:12:36,146 - #29 int
+INFO  17:12:36,147 - #29 c
+INFO  17:12:36,147 - #14 =
+INFO  17:12:36,147 - #27 7
+INFO  17:12:36,148 - #17 ;
+INFO  17:12:36,150 - #3 const
+INFO  17:12:36,152 - #29 char
+INFO  17:12:36,152 - #29 d
+INFO  17:12:36,153 - #14 =
+INFO  17:12:36,154 - #30 A
+INFO  17:12:36,154 - #17 ;
+INFO  17:12:36,155 - #3 const
+INFO  17:12:36,155 - #29 bool
+INFO  17:12:36,155 - #29 aw
+INFO  17:12:36,156 - #14 =
+INFO  17:12:36,156 - #28 1
+INFO  17:12:36,156 - #17 ;
+INFO  17:12:36,157 - #23 {
+INFO  17:12:36,157 - #8 void
+INFO  17:12:36,157 - #29 main
+INFO  17:12:36,157 - #19 (
+INFO  17:12:36,159 - #20 )
+INFO  17:12:36,159 - #29 int
+INFO  17:12:36,161 - #29 a
+INFO  17:12:36,161 - #18 ,
+INFO  17:12:36,161 - #29 o
+INFO  17:12:36,161 - #17 ;
+INFO  17:12:36,164 - #23 {
+INFO  17:12:36,165 - #29 x
+INFO  17:12:36,168 - #14 =
+INFO  17:12:36,168 - #29 b
+INFO  17:12:36,172 - #21 [
+INFO  17:12:36,173 - #27 2
+INFO  17:12:36,173 - #22 ]
+INFO  17:12:36,176 - #25 ?
+INFO  17:12:36,177 - #30 a
+INFO  17:12:36,178 - #7 :
+INFO  17:12:36,179 - #30 a
+INFO  17:12:36,179 - #17 ;
+INFO  17:12:36,181 - #24 }
+INFO  17:12:36,182 - #24 }
+INFO  17:12:36,190 - Program(
+  ProgName(
+   PROG
+  ) [ProgName]
+  VarConstDecListConst(
+    VarConstDecListConst(
+      VarConstDecListConst(
+        VarConstDecListVar(
+          VarConstDecListVar(
+            NoVarConstDecList(
+            ) [NoVarConstDecList]
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              VarDeclaration(
+               x
+                NoBracket(
+                ) [NoBracket]
+              ) [VarDeclaration]
+              VarDeclMoreComma(
+                VarDeclaration(
+                 y
+                  NoBracket(
+                  ) [NoBracket]
+                ) [VarDeclaration]
+                NoVarDeclMore(
+                ) [NoVarDeclMore]
+              ) [VarDeclMoreComma]
+            ) [VarDeclarations]
+          ) [VarConstDecListVar]
+          VarDeclarations(
+            Type(
+             bool
+            ) [Type]
+            VarDeclaration(
+             b
+              Brackets(
+              ) [Brackets]
+            ) [VarDeclaration]
+            NoVarDeclMore(
+            ) [NoVarDeclMore]
+          ) [VarDeclarations]
+        ) [VarConstDecListVar]
+        ConstDeclarations(
+          Type(
+           int
+          ) [Type]
+          ConstantNum(
+           c
+           7
+          ) [ConstantNum]
+          NoConstDeclMore(
+          ) [NoConstDeclMore]
+        ) [ConstDeclarations]
+      ) [VarConstDecListConst]
+      ConstDeclarations(
+        Type(
+         char
+        ) [Type]
+        ConstantChar(
+         d
+         A
+        ) [ConstantChar]
+        NoConstDeclMore(
+        ) [NoConstDeclMore]
+      ) [ConstDeclarations]
+    ) [VarConstDecListConst]
+    ConstDeclarations(
+      Type(
+       bool
+      ) [Type]
+      ConstantBool(
+       aw
+       1
+      ) [ConstantBool]
+      NoConstDeclMore(
+      ) [NoConstDeclMore]
+    ) [ConstDeclarations]
+  ) [VarConstDecListConst]
+  OneMethodDeclaration(
+    MethodDeclaration(
+      MethName(
+       main
+      ) [MethName]
+      VarDeclLocalListRecursion(
+        NoVarDeclLocalListRecursion(
+        ) [NoVarDeclLocalListRecursion]
+        VarLocalDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationLocal(
+           a
+            NoBracket(
+            ) [NoBracket]
+          ) [VarDeclarationLocal]
+          VarDeclMoreLocalComma(
+            VarDeclarationLocal(
+             o
+              NoBracket(
+              ) [NoBracket]
+            ) [VarDeclarationLocal]
+            NoVarDeclMoreLocal(
+            ) [NoVarDeclMoreLocal]
+          ) [VarDeclMoreLocalComma]
+        ) [VarLocalDeclarations]
+      ) [VarDeclLocalListRecursion]
+      StatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        Declaration(
+          Evaluation(
+            DesignatorVal(
+             x
+            ) [DesignatorVal]
+            Ternary(
+              ExpressionSub(
+                NoMinus(
+                ) [NoMinus]
+                TermListTerm(
+                  Term(
+                    FactorListFactor(
+                      FactorDesignator(
+                        DesignatorArray(
+                          ArrayName(
+                           b
+                          ) [ArrayName]
+                          NoTernary(
+                            ExpressionSub(
+                              NoMinus(
+                              ) [NoMinus]
+                              TermListTerm(
+                                Term(
+                                  FactorListFactor(
+                                    FactorNum(
+                                     2
+                                    ) [FactorNum]
+                                  ) [FactorListFactor]
+                                ) [Term]
+                              ) [TermListTerm]
+                            ) [ExpressionSub]
+                          ) [NoTernary]
+                        ) [DesignatorArray]
+                      ) [FactorDesignator]
+                    ) [FactorListFactor]
+                  ) [Term]
+                ) [TermListTerm]
+              ) [ExpressionSub]
+              ExpressionSub(
+                NoMinus(
+                ) [NoMinus]
+                TermListTerm(
+                  Term(
+                    FactorListFactor(
+                      FactorChar(
+                       a
+                      ) [FactorChar]
+                    ) [FactorListFactor]
+                  ) [Term]
+                ) [TermListTerm]
+              ) [ExpressionSub]
+              ExpressionSub(
+                NoMinus(
+                ) [NoMinus]
+                TermListTerm(
+                  Term(
+                    FactorListFactor(
+                      FactorChar(
+                       a
+                      ) [FactorChar]
+                    ) [FactorListFactor]
+                  ) [Term]
+                ) [TermListTerm]
+              ) [ExpressionSub]
+            ) [Ternary]
+          ) [Evaluation]
+        ) [Declaration]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [OneMethodDeclaration]
+) [Program]
+INFO  17:12:36,191 - ===================================
+INFO  17:12:36,241 - Obradjuje se funkcija main na liniji 8
+ERROR 17:12:36,243 - Designatoru je nemoguce dodeliti vrednost koja je data. na liniji 9
+INFO  17:12:36,243 - ===================================
+ERROR 17:12:36,245 - Parsiranje NIJE uspesno zavrseno!

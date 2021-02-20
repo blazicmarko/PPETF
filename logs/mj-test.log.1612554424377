@@ -1,0 +1,40 @@
+INFO  20:46:33,967 - Compiling source file: C:\Users\Marko\Desktop\ProjectPP\workspace\MJCompiler\test\program.mj
+INFO  20:46:34,002 - #2 program
+INFO  20:46:34,002 - #29 test301
+INFO  20:46:34,003 - #3 const
+INFO  20:46:34,004 - #29 int
+INFO  20:46:34,004 - #29 nula
+INFO  20:46:34,005 - #14 =
+INFO  20:46:34,005 - #27 0
+INFO  20:46:34,005 - #17 ;
+INFO  20:46:34,006 - #23 {
+INFO  20:46:34,006 - #8 void
+INFO  20:46:34,006 - #29 main
+INFO  20:46:34,006 - #19 (
+INFO  20:46:34,007 - #20 )
+INFO  20:46:34,007 - #29 int
+INFO  20:46:34,008 - #29 i
+INFO  20:46:34,008 - #17 ;
+INFO  20:46:34,010 - #29 int
+INFO  20:46:34,010 - #29 niz
+INFO  20:46:34,010 - #21 [
+INFO  20:46:34,011 - #22 ]
+INFO  20:46:34,011 - #17 ;
+INFO  20:46:34,012 - #23 {
+INFO  20:46:34,012 - #29 niz
+INFO  20:46:34,013 - #14 =
+INFO  20:46:34,013 - #4 new
+INFO  20:46:34,014 - #29 int
+INFO  20:46:34,014 - #21 [
+INFO  20:46:34,015 - #27 3
+INFO  20:46:34,015 - #22 ]
+INFO  20:46:34,016 - #17 ;
+INFO  20:46:34,017 - #29 niz
+INFO  20:46:34,018 - #21 [
+INFO  20:46:34,018 - #27 1
+INFO  20:46:34,018 - #22 ]
+INFO  20:46:34,018 - #14 =
+INFO  20:46:34,019 - #17 ;
+ERROR 20:46:34,019 - 
+Sintaksna greska na liniji 14
+ERROR 20:46:34,019 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 14

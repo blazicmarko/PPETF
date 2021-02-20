@@ -1,0 +1,136 @@
+INFO  23:32:32,650 - Compiling source file: C:\Users\Marko\Desktop\ProjectPP\workspace\MJCompiler\test\program.mj
+INFO  23:32:32,686 - #2 program
+INFO  23:32:32,686 - #29 test301
+INFO  23:32:32,686 - #23 {
+INFO  23:32:32,687 - #8 void
+INFO  23:32:32,687 - #29 main
+INFO  23:32:32,688 - #19 (
+INFO  23:32:32,688 - #20 )
+INFO  23:32:32,688 - #29 int
+INFO  23:32:32,689 - #29 i
+INFO  23:32:32,689 - #17 ;
+INFO  23:32:32,691 - #23 {
+INFO  23:32:32,691 - #29 i
+INFO  23:32:32,692 - #14 =
+INFO  23:32:32,692 - #28 1
+INFO  23:32:32,693 - #25 ?
+INFO  23:32:32,694 - #27 4
+INFO  23:32:32,694 - #7 :
+INFO  23:32:32,695 - #27 2
+INFO  23:32:32,695 - #17 ;
+INFO  23:32:32,695 - #5 print
+INFO  23:32:32,695 - #19 (
+INFO  23:32:32,696 - #29 i
+INFO  23:32:32,696 - #20 )
+INFO  23:32:32,697 - #17 ;
+INFO  23:32:32,697 - #24 }
+INFO  23:32:32,697 - #24 }
+INFO  23:32:32,717 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoVarConstDecList(
+  ) [NoVarConstDecList]
+  OneMethodDeclaration(
+    MethodDeclaration(
+      MethName(
+       main
+      ) [MethName]
+      VarDeclLocalListRecursion(
+        NoVarDeclLocalListRecursion(
+        ) [NoVarDeclLocalListRecursion]
+        VarLocalDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationLocal(
+           i
+            NoBracket(
+            ) [NoBracket]
+          ) [VarDeclarationLocal]
+          NoVarDeclMoreLocal(
+          ) [NoVarDeclMoreLocal]
+        ) [VarLocalDeclarations]
+      ) [VarDeclLocalListRecursion]
+      StatementList(
+        StatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          Declaration(
+            Evaluation(
+              DesignatorVal(
+               i
+              ) [DesignatorVal]
+              Ternary(
+                ExpressionSub(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermListTerm(
+                    Term(
+                      FactorListFactor(
+                        FactorBool(
+                         1
+                        ) [FactorBool]
+                      ) [FactorListFactor]
+                    ) [Term]
+                  ) [TermListTerm]
+                ) [ExpressionSub]
+                ExpressionSub(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermListTerm(
+                    Term(
+                      FactorListFactor(
+                        FactorNum(
+                         4
+                        ) [FactorNum]
+                      ) [FactorListFactor]
+                    ) [Term]
+                  ) [TermListTerm]
+                ) [ExpressionSub]
+                ExpressionSub(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermListTerm(
+                    Term(
+                      FactorListFactor(
+                        FactorNum(
+                         2
+                        ) [FactorNum]
+                      ) [FactorListFactor]
+                    ) [Term]
+                  ) [TermListTerm]
+                ) [ExpressionSub]
+              ) [Ternary]
+            ) [Evaluation]
+          ) [Declaration]
+        ) [StatementList]
+        PrintStat(
+          NoTernary(
+            ExpressionSub(
+              NoMinus(
+              ) [NoMinus]
+              TermListTerm(
+                Term(
+                  FactorListFactor(
+                    FactorDesignator(
+                      DesignatorVal(
+                       i
+                      ) [DesignatorVal]
+                    ) [FactorDesignator]
+                  ) [FactorListFactor]
+                ) [Term]
+              ) [TermListTerm]
+            ) [ExpressionSub]
+          ) [NoTernary]
+          NoConstNumberList(
+          ) [NoConstNumberList]
+        ) [PrintStat]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [OneMethodDeclaration]
+) [Program]
+INFO  23:32:32,717 - ===================================
+INFO  23:32:32,720 - Obradjuje se funkcija main na liniji 5
+INFO  23:32:32,721 - ===================================
+INFO  23:32:32,726 - Parsiranje uspesno zavrseno!

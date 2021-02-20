@@ -1,0 +1,95 @@
+INFO  17:50:35,576 - Compiling source file: C:\Users\Marko\Desktop\ProjectPP\workspace\MJCompiler\test\program.mj
+INFO  17:50:35,639 - #2 program
+INFO  17:50:35,639 - #29 PROG
+INFO  17:50:35,639 - #29 int
+INFO  17:50:35,643 - #29 x
+INFO  17:50:35,644 - #18 ,
+INFO  17:50:35,646 - #29 y
+INFO  17:50:35,646 - #17 ;
+INFO  17:50:35,648 - #29 bool
+INFO  17:50:35,648 - #29 b
+INFO  17:50:35,649 - #21 [
+INFO  17:50:35,649 - #22 ]
+INFO  17:50:35,649 - #17 ;
+INFO  17:50:35,650 - #23 {
+INFO  17:50:35,650 - #8 void
+INFO  17:50:35,650 - #29 main
+INFO  17:50:35,650 - #19 (
+INFO  17:50:35,651 - #20 )
+INFO  17:50:35,651 - #29 int
+INFO  17:50:35,652 - #29 a
+INFO  17:50:35,652 - #17 ;
+INFO  17:50:35,653 - #23 {
+INFO  17:50:35,654 - #24 }
+INFO  17:50:35,655 - #24 }
+INFO  17:50:35,657 - Program(
+  ProgName(
+   PROG
+  ) [ProgName]
+  VarConstDecListVar(
+    VarConstDecListVar(
+      NoVarConstDecList(
+      ) [NoVarConstDecList]
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclaration(
+         x
+          NoBracket(
+          ) [NoBracket]
+        ) [VarDeclaration]
+        VarDeclMoreComma(
+          VarDeclaration(
+           y
+            NoBracket(
+            ) [NoBracket]
+          ) [VarDeclaration]
+          NoVarDeclMore(
+          ) [NoVarDeclMore]
+        ) [VarDeclMoreComma]
+      ) [VarDeclarations]
+    ) [VarConstDecListVar]
+    VarDeclarations(
+      Type(
+       bool
+      ) [Type]
+      VarDeclaration(
+       b
+        Brackets(
+        ) [Brackets]
+      ) [VarDeclaration]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+    ) [VarDeclarations]
+  ) [VarConstDecListVar]
+  OneMethodDeclaration(
+    MethodDeclaration(
+      MethName(
+       main
+      ) [MethName]
+      VarDeclLocalListRecursion(
+        NoVarDeclLocalListRecursion(
+        ) [NoVarDeclLocalListRecursion]
+        VarLocalDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationLocal(
+           a
+            NoBracket(
+            ) [NoBracket]
+          ) [VarDeclarationLocal]
+          NoVarDeclMoreLocal(
+          ) [NoVarDeclMoreLocal]
+        ) [VarLocalDeclarations]
+      ) [VarDeclLocalListRecursion]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDeclaration]
+  ) [OneMethodDeclaration]
+) [Program]
+INFO  17:50:35,658 - ===================================
+INFO  17:50:35,686 - Obradjuje se funkcija main na liniji 5
+INFO  17:50:35,687 - ===================================
+INFO  17:50:35,690 - Parsiranje uspesno zavrseno!
